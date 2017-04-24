@@ -58,7 +58,7 @@ I’m a single-dog.  But codes and godgirl are my favorite.  Life is colorful, t
 博客源码在 <a target="_blank" href='https://github.com/MengZheK/kangblog.github.io/' target="_blank" >Github</a> 上，你的 Star 是我更新的动力，谢谢~
 
 <h3> 联系方式 </h3>   
-<p>邮箱：robotkang@foxmail.com   &emsp;微信：kang1390305137
+<p>邮箱：robotkang@foxmail.com   &emsp;微信：kang1390305137   &emsp;公众号：robotkang
 <p>
 
 <a href="/lovekang/" style="color:#708090"  target="_blank"> <h5>Website Time</h5></a>  
