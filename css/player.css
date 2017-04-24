@@ -106,9 +106,7 @@
 	margin-top:10px;
 	height:25px
 }
-.Qplayer{
-z-index:99999;
-}
+.QPlayer{z-index:99999;}
 .rewind {
 	background-position:-33px 0 !important;
 	width:9px;
