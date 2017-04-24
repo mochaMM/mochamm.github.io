@@ -72,7 +72,7 @@ title: 留言板「MESSAGE」
   var isRotate = true;
   var autoplay = true;
 </script>
-<script src="js/player.js"></script>
+<script src="/js/player.js"></script>
 <script>
 
 function bgChange(){
