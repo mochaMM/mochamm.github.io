@@ -25,7 +25,7 @@ tag: Python
 Python也要在本地下载安装好，我现在安装的是` python 3.5.2` ，配置好环境变量.
 
 ** 2.安装VS Code的Python插件，选择安装次数最多的那个**       
-<img src="http://omjh2j5h3.bkt.clouddn.com/vscode/1.jpg" width="800" height="520" alt="photos"/>
+<img src="http://omjh2j5h3.bkt.clouddn.com/vscode/1.jpg" width="800" height="500" alt="photos"/>
 
 
 ** 3.安装其他插件**    
@@ -54,9 +54,12 @@ Go to File > Preferences > File Icon Theme > VSCode Icons.
 **4.设置快捷键**          
 &emsp;文件->首选项->键盘快捷方式，将需要的修改的快捷键的整个大括号里面的内容复制到右边keybindings.json文件中，然后修改“key”的值为你需要的快捷键即可。我这边只修改了复制一行和删除一行的快捷键。      
 
-<img src="http://omjh2j5h3.bkt.clouddn.com/vscode/4.jpg" width="700" height="200" alt="photos"/>
+<img src="http://omjh2j5h3.bkt.clouddn.com/vscode/4.jpg" width="700" height="180" alt="photos"/>
+
+
 
 ## 总结
+
 
 
 
