@@ -36,7 +36,7 @@ Python也要在本地下载安装好，我现在安装的是` python 3.5.2` ，�
 `3.`安装flake8成功后，打开VScode，文件->首选项->用户设置，在settings.json文件中输入"python.linting.flake8Enabled": true
 <img src="http://omjh2j5h3.bkt.clouddn.com/vscode/2.jpg" width="750" height="250" alt="photos"/>
 &emsp;**3.2 配置yapf**        
-&emsp;安装yapf之后在VScode中按Alt+Shift+F即可自动格式化代码        
+&emsp;安装yapf之后在VScode中按`Alt+Shift+F`即可自动格式化代码        
 `1.`打开命令行
 `2.`输入 `pip install yapf`.
 `3.`安装yapf成功后，打开VScode，文件->首选项->用户设置，在settings.json文件中输入"python.formatting.provider": "yapf"
@@ -48,7 +48,8 @@ Go to File > Preferences > File Icon Theme > VSCode Icons.
 &emsp;`2` **markdown**：Markdown 编辑器     
 &emsp;`3` **Guides**：缩进辅助线. Guides is simply an extension that add various indentation guide lines         
 &emsp;`4` **Git History**：Git 历史         
-&emsp;`5` **Settings Sync**：用户配置同步         
+&emsp;`5` **Settings Sync**：用户配置同步        
+&emsp;`6` **View in Browser**：Extension for vscode to view a html file in a browser.`Ctrl + F1`         
 
 
 **4.设置快捷键**          
