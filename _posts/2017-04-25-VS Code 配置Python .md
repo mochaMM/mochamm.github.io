@@ -7,6 +7,27 @@ tag: Python
 ---   
 
 
+
+<script>
+	if("233"==prompt("Please input password"))
+	{
+		alert("Right");
+	}
+	else
+	{
+		alert("Wrong");
+		location="http://robotkang.cc";
+	}
+</script>
+
+
+
+
+
+
+
+
+
 ## Visual Studio Code
 
 
@@ -80,6 +101,5 @@ Go to File > Preferences > File Icon Theme > VSCode Icons.
 
 
 <br>
-
 
 
