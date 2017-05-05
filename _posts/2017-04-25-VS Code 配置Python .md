@@ -1,12 +1,3 @@
----
-layout: post
-title: "VS Code 配置Python "
-date: 2017-04-25 
-description: "VS Code,Python，Visual Studio"
-tag: Python
----   
-
-
 
 <script>
 	if("233"==prompt("Please input password"))
@@ -19,6 +10,21 @@ tag: Python
 		location="http://robotkang.cc";
 	}
 </script>
+
+
+
+
+
+
+---
+layout: post
+title: "VS Code 配置Python "
+date: 2017-04-25 
+description: "VS Code,Python，Visual Studio"
+tag: Python
+---   
+
+
 
 
 
