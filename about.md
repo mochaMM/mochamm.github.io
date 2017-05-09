@@ -3,7 +3,7 @@ layout: page
 title: 关于我「ABOUT ME」 
 date: 2017-03-01 
 ---
-![hello world](http://omjh2j5h3.bkt.clouddn.com/%E7%8C%8E%E8%B1%B9%E6%88%AA%E5%9B%BE20170310145433.png)
+<a href="/photos/" target="_blank"><img src="http://omjh2j5h3.bkt.clouddn.com/%E5%A4%A9%E7%AD%96" width="280" height="280" alt="photos"/></a>
 
 <p>
 一个即将走出象牙塔的 Maker<a href="{{ site.baseurl }}/jianli.pdf" target="_blank"> 「我的简历」 </a>    
