@@ -331,7 +331,7 @@ img::-moz-selection {
 
   .date,
   .time,
-  .author{ color: #c7c7c7; }
+  .author{ color: #FF6633; }
   .date a,
   .time a,
   .author a,
@@ -449,7 +449,7 @@ img::-moz-selection {
 
   .post-meta {
     margin: 0;
-    color: #c7c7c7; 
+    color: #FF6633; 
   }
 
   .post-meta__date span {
@@ -894,8 +894,9 @@ img::-moz-selection {
   margin-right: .5em;
   margin-left: 10px;
   margin-top: 3px;
-  color: #c7c7c7; 
+  color: #008B00; 
   float: left;
+  font-size: 0.9em;
 
 }
 
@@ -910,11 +911,11 @@ img::-moz-selection {
   padding-left: 5px;
   padding-right: 0px;
   float: left;
-  color: #8A97A1;
+  color: #FF6347;
   
 }
 .post-list__meta--tags-right {
-  color: #8A97A1;
+  color: #3c78d8;
   font-size: 0.7em;
 }
 
