@@ -101,10 +101,10 @@ function setHalfVolume()
 </script> 
 
 
-<!-- 多说评论框 start -->
+<!-- 多说评论框 start 
 	<div class="ds-thread" data-thread-key="/liuyan/" data-title="留言板" data-url="http://roboutkang/liuyan/"></div>
-<!-- 多说评论框 end -->
-<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+<!-- 多说评论框 end 
+<!-- 多说公共JS代码 start (一个网页只需插入一次) 
 <script type="text/javascript">
 var duoshuoQuery = {short_name:"robotkang"};
 	(function() {
@@ -117,6 +117,19 @@ var duoshuoQuery = {short_name:"robotkang"};
 	})();
 	</script>
 <!-- 多说公共JS代码 end -->
+
+<div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
+<script>
+  var cloudTieConfig = {
+    url: document.location.href, 
+    sourceId: "",
+    productKey: "88e913c19bd844db833a1288040a08ce",
+    target: "cloud-tie-wrapper"
+  };
+</script>
+<script src="https://img1.cache.netease.com/f2e/tie/yun/sdk/loader.js"></script>
+
+
 
 <p>
 <a href="/fangke/" style="color:#708090"> <h5>Recent Visitors</h5></a>  
