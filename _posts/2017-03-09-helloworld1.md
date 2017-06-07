@@ -34,5 +34,5 @@ tag: 闲言碎语
 > 怜，就给了他1块钱。 然后接着调试程序。他可能生意不好，就无聊的看看我在干什么，然后过了一会，他缓缓地指
 > 着我的屏幕说，这里少了个分号... 
 
-<a href="/photos/" target="_blank"><img src="http://omjh2j5h3.bkt.clouddn.com/%E5%A4%A9%E7%AD%96" width="195" height="195" alt="photos"/></a>
+<a href="/photos/" target="_blank"><img src="http://omjh2j5h3.bkt.clouddn.com/%E5%A4%A9%E7%AD%96.jpg" width="195" height="195" alt="photos"/></a>
 
