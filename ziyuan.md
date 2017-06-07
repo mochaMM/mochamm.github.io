@@ -33,7 +33,7 @@ title: 资源「USEFUL LINKS」
 <p>
 <a href="https://www.panc.cc" target="_blank">胖次</a>- 网盘，资料搜索..&nbsp;&nbsp;
 <a href="http://ftq.link/?u=9831" target="_blank">科学上网</a>- VPN,翻墙 &nbsp;&nbsp;
-<a href="http://daohang.lusongsong.com/" target="_blank">博客大全</a>&nbsp;&nbsp;
+<a href="http://daohang.lusongsong.com/" target="_blank">博客大全</a>- Blog&nbsp;&nbsp;
 
 <p>
 <a href="http://www.86ditu.com" target="_blank">卫星地图「谷歌」</a>- 来找找你家的房顶吧...
