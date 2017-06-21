@@ -1,27 +1,28 @@
 # Basic
-title: 亢志军
+title: 抹茶
 subtitle: 自留地
 description: 欢迎来到我的个人网站~
 # 头像里面的标题
-avatarTitle: RobotKang
+avatarTitle: Mocha
 # 头像里面的描述
-avatarDesc: Python/机器学习/嵌入式
+avatarDesc: 物联网/安卓,IOS/嵌入式
 url: "http://www.xiangnandao.com"
 
 # Comment
 comment:
     provider: duoshuo
     duoshuo:
-     short_name: robotkang
+     short_name: Mocha
 
 # Social
 social:
-    weibo: 123456789
-    weixing: kang1390305137 
-    github: MengZheK
+    #weibo: 123456789
+    #weixing: kang1390305137 
+    github: MochaMM
     # twitter: 
-    mail: robotkang@foxmail.com
-    csdn: robotkang
+    mail: 67389063@qq.com
+    qq:673890630
+    csdn: netty
 
 # 百度统计 
 # 使用博客模板请去掉或者更换 id 
