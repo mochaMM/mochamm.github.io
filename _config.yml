@@ -63,12 +63,11 @@ blog_button:
 nav:
     - {title: 所有文章, description: archive, url: '/archive'}   
     - {title: 标签, description: tags, url: '/tags'}   
-    - {title: 留言, description: liuyan, url: '/liuyan'}
-    - {title: 资源, description: ziyuan, url: '/ziyuan'}
     - {title: 关于我, description: about, url: '/about'}
     - {title: 时间轴, description: timeline, url: '/timeline'}
-
-          
+    - {title: 相册, description: photos, url: '/photos'}
+    - {title: 资源, description: ziyuan, url: '/ziyuan'}
+    - {title: 留言, description: liuyan, url: '/liuyan'}      
     
 
 # Pagination
