@@ -14,13 +14,13 @@ title: 资源「USEFUL LINKS」
 <img src="http://omjh2j5h3.bkt.clouddn.com/icon/%E9%85%8D%E8%89%B2%E5%99%A8.png" width="20" height="20" alt="photos" style="display:inline;margin-bottom: -5px;"/>
 <a href="/college_blank/" target="_blank">大学|四年</a>- 记青春年华(待记).&nbsp;&nbsp;
 <img src="http://omjh2j5h3.bkt.clouddn.com/icon/%E4%BC%98%E7%95%8C%E7%BD%91.png" width="20" height="20" alt="photos" style="display:inline;margin-bottom: -5px;"/>
-<a href="/book_blank/" style="color:#DC143C" target="_blank">个人书单</a>-  FLAG&nbsp;&nbsp;
+<a href="/book_blank/" style="color:#DC143C" target="_blank">个人书单(待记)</a>-  FLAG&nbsp;&nbsp;
 <img src="http://omjh2j5h3.bkt.clouddn.com/icon/%E5%AD%A6UI%E7%BD%91.png" width="20" height="20" alt="photos" style="display:inline;margin-bottom: -5px;"/>
-<a href="http://_blank" style="color:#DC143C" target="_blank">Company</a>- FLAG
+<a href="http://_blank" style="color:#DC143C" target="_blank">Company(待记)</a>- FLAG
 
 <p>
 <img src="http://omjh2j5h3.bkt.clouddn.com/icon/%E6%B1%82%E5%AD%97%E4%BD%93.png" width="20" height="20" alt="photos" style="display:inline;margin-bottom: -5px;"/>
-<a href="http://wiki.mocha.cc" target="_blank" style="text-decoration:none" > Robotkang's Wiki </a>个人维基百科库，还未整理！    
+<a href="http://wiki.mocha.cc" target="_blank" style="text-decoration:none" > mocha's Wiki </a>个人维基百科库，还未整理！    
 <img src="http://omjh2j5h3.bkt.clouddn.com/icon/app%E8%A7%84%E8%8C%83.png" width="20" height="20" alt="photos" style="display:inline;margin-bottom: -5px;"/>
 #<a href="/app/" target="_blank">APP下载1</a>
 #<img src="http://omjh2j5h3.bkt.clouddn.com/icon/app%E8%A7%84%E8%8C%83.png" width="20" height="20" alt="photos" #style="display:inline;margin-bottom: -5px;"/>
