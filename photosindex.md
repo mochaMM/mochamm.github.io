@@ -1,8 +1,8 @@
-
 ---
 layout: page
 title: 相册「USEFUL LINKS」 
 ---
+
 这是我的相册仓库，我是相册管理员！哈哈...        
 <P>..       
 <P>Life is colorful, this website is a window which used to present the color of my life.    
