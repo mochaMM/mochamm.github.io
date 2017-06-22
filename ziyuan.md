@@ -50,27 +50,21 @@ title: 资源「USEFUL LINKS」
 <p><a href="http://wiki.xiaolei.tech" target="_blank" > Xiaolei's Wiki </a>一个个人的维基百科库，相当给力！    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/litten/hexo-theme-yilia" target="_blank" > Yilia </a>- Responsive and simple style 优雅简洁响应式主题。「存个档」
 
- <p>
-<h3> Friends</h3>  
- <p>
-<a href="http://www.lilian.info" target="_blank" >LILIAN</a>- 牛人一枚 UESTC
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.dandyweng.com" target="_blank" >翁天信</a>- homeschooling、自由的行者...
 <p>
-<a href="http://szhshp.org" target="_blank" >szhshp</a>- 前端，设计，游戏，生活.
+<h3> Friends</h3>  
+<p>
+
+<a href="http://www.liberxue.com" target="_blank" >Liberxue</a>- 牛人一枚 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://gaoxiang.io" target="_blank" >高翔</a>- homeschooling、自由的行者...
 
 <h3> Others</h3>  
- <p> 
+<p> 
 Markdown语法参考链接:<a href="https://www.zybuluo.com/mdeditor" target="_blank" > 作业部落 </a> &nbsp;&nbsp; <a  href="http://nav.templatesy.com/"  >Templatesy</a>-前端网址导航.
+
 <p>
 <a href="http://www.w3school.com.cn" target="_blank" > w3school </a>-在w3school上，你可以找到全面的~建站资料「html、css、sql、php...」
 </p>
-
-
-<p>
-<a href="/photos/"  style="color:#272727" target="_blank"> <h1>相册「Photos」</h1></a>  
-</p>
-
-<a href="/photos/" target="_blank"><img src="http://omjh2j5h3.bkt.clouddn.com/tupian.png" width="967" height="195" alt="photos" display="block"/></a>
 
 <p>
 <a  style="color:#272727" target="_blank"> <h1>游戏「Games」</h1></a>  
