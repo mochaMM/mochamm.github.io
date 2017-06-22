@@ -54,7 +54,7 @@ title: 资源「USEFUL LINKS」
 
 <a href="http://www.liberxue.com" target="_blank" >Liberxue</a>- 牛人一枚 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="http://gaoxiang.io" target="_blank" >高翔</a>- homeschooling、自由的行者...
+<a href="http://gaoxianglyx.top" target="_blank" >高翔</a>- 百度实习生，奋斗青年...
 
 <h3> Others</h3>  
 <p> 
