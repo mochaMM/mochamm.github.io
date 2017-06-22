@@ -1,67 +1,52 @@
+mocha自述-简介
 ---
-layout: page
-title: 关于我「ABOUT ME」 
-date: 2017-03-01 
+我们一出生，就开始疲于奔命。小的时候，被考大学的崇高理想所逼迫，大学毕业了，被找个好工作的现实所逼迫，然后是结婚，成家。几十年过去了，当初的理想已经幻灭，留在灵魂某个角落尘封。回头想想，是一定要这样被生活追着奔跑吗，不这样就活不下去吗？如果当初有个间隔年多好，至少给理想一个交待.......
+
+年轻可以犯错，犯错可以原谅。不要犯同样的错即可。
+
+
+关于我
 ---
-<a href="/photos/" target="_blank"><img src="http://omjh2j5h3.bkt.clouddn.com/%E5%A4%A9%E7%AD%96.jpg" width="150" height="150" alt="photos"/></a>
+- mocha，
+- 目标全栈,物联开发
+- 目前使用：  phyton PHP golang c/c++ swift JAVA JavaScript。
+- 热衷于手机APP，微信开发，Raspberry，lot...
 
-<p>
-一个即将走出象牙塔的 Maker「未更新」<a href="{{ site.baseurl }}/jianli.pdf" target="_blank"> 「我的简历」 </a>    
+---
+**独立开发项目**：
 
-
-<div style="color:#FF6633">
-<p>	三尺微命，一介书生。求学于卫星湖畔，黄瓜山下，欲潜心研究智能机器人开发应用之道。然所学颇杂，对诸多方面均有涉猎，喜欢研究一些新技术和关注一些最新的科技~
-</p>
-</div>
-<p>
-平时喜欢整理个人博客，逛逛技术论坛     
-<p>
-喜欢日本，想着如果有机会一定会去日本生活一段时间        
-<div style="color:#008B00">
-<p>
-喜欢Spoken English，虽然现在很渣，但一直在努力...        
-</p>
-</div>
-<p>
-现在可能苟且，但还是怀揣着诗和远方，       
-<p>
-同时喜欢老罗和晓松，虽然他俩还撕逼，罗跟谁不撕逼，爱听老罗的单口相声           
-<p>
-I’m a single-dog.  But codes and godgirl are my favorite.  Life is colorful, this website   is a window which used to present the color of my life.       
-
-<p>
-
-<h3> PastTime</h3>   
-
-<p>
+ID|项 目 名 称| 开 发 语 言| 功 能 简 述| 框架| 是否上线|
+|:--------|:-------:|:-------:|:-------:|:-------:|-------:|
+1|安卓录音应用| JAVA|手机录音应用|无|是
+|=====
+2|安卓密码管理器|JAVA|手机账号密码管理应用|无|是
+|=====
+3|安卓短消息管理|JAVA|手机短消息管理|无|是
+|=====
 
 
-也许你听说过，「业余时间决定人生」；也许你还听说过，「听过很多道理，依然过不好这一生」。书籍、代码、博客、运动、电影、美剧、游戏，这就是我的业余生活。            
+关于mocha
+---
+关于「mocha」，我的博客记录我的生活。
 
+该博客创建于 2017 年 6 月，主要为个人的网络日志，在线记录生活、工作、情感和游玩的事儿，分享互联网动态和社会百态。使用  Jekyll 主题，该主题支持 iPhone 和 iPad 等不同屏幕分辨率，响应式设计，但暂时不支持 IE 浏览器，感谢liberxue提供原始模板。
 
-<div style="color:#708090">
-<p>
-     我的能力就这么多。我若全心工作，则必然忽略生活；我若用心生活，则必然一事无成；我若两者兼顾，又难免平庸
-</p>
-</div>
-<p>
-趁我在还能看得进书写得动代码的年纪，努力一回，看看这平庸的资质究竟能发挥几分。
+生活，除了工作应该还有很多值的我们去记录，当老了还有事情可做。。。。
+大学时代喜欢旅游，工作的早期阶段也喜欢云游四方，品尝各方风土人情。在这里，你能看到我走过的一些世界。
 
-<p>
+喜欢跟直率，善良的人交往，人以类聚物以群分。气场不同终究难成朋友。因为不会读心术有时候也会看走眼。
 
-<h3> Ps </h3>   
-<p>
-如果你想搭建一个跟我一样的博客，可以看
-<a href="/2017/03/HowToCreateBlog/"> Jekyll+Github个人博客构建之路 </a>
-教程
+物质的洪流，可有可无的欲望，已经在瓦解那些真情，精神享受变成了Matrix世界的廉价替代。回不去的过去。
 
-<p>
+一生很长也很短，做自己喜欢的事情，让它有意思些。
 
-有关于博客主题的建议和意见都可以提给我，让我们一起来打造一个精美的主题吧~ 
+都说眼睛是心灵的窗口，而文字，则是心灵的声音，透过这些文字，或许你能了解我，更多的更多。
 
-<p> 
+关于博文
+---
+关于「博文」，学习和分享是唯一的主题。
 
-博客源码在 <a target="_blank" href='https://github.com/MengZheK/kangblog.github.io/' target="_blank" >Github</a> 上，你的 Star 是我更新的动力，谢谢~
+学习永无止境。怎样在知识爆炸的时代，集中有限的精力，学习到精华，提升技能，是门技术。
 
 <h3> 联系方式 </h3>         
 <script>
@@ -70,11 +55,11 @@ I’m a single-dog.  But codes and godgirl are my favorite.  Life is colorful, t
 	}
 </script>
 
-<p>邮箱：robotkang@foxmail.com &emsp;<a href="#" onmouseover="mousemethod('block','img1')" onmouseout="mousemethod('none','img1')" style="color:#FF4500;text-decoration:none">微信：kang1390305137</a><img id="img1" src="http://omjh2j5h3.bkt.clouddn.com/kangweix.png" style="display:none;"  width="128" height="128">&emsp;
-	<a href="#" onmouseover="mousemethod('block','img2')" onmouseout="mousemethod('none','img2')" style="color:#008B00;text-decoration:none">公众号：robotkang</a><img id="img2" src="http://omjh2j5h3.bkt.clouddn.com/kanggzh.png" style="display:none;" width="128" height="128" >
+<p>邮箱：673890630@qq.com &emsp;<a href="#" onmouseover="mousemethod('block','img1')" onmouseout="mousemethod('none','img1')" style="color:#FF4500;text-decoration:none">微信：shine_netty</a><img id="img1" src="http://omjh2j5h3.bkt.clouddn.com/kangweix.png" style="display:none;"  width="128" height="128">&emsp;
+	<a href="#" onmouseover="mousemethod('block','img2')" onmouseout="mousemethod('none','img2')" style="color:#008B00;text-decoration:none">公众号：ITPlayer</a><img id="img2" src="http://omjh2j5h3.bkt.clouddn.com/kanggzh.png" style="display:none;" width="128" height="128" >
  
 <p>
-<a href="/lovekang/" style="color:#708090"  target="_blank"> <h5>Website Time</h5></a>  
+<a href="/lovecha/" style="color:#708090"  target="_blank"> <h5>Website Time</h5></a>  
 </p>
 
 
