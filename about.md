@@ -13,7 +13,7 @@ mocha自述-简介
 - 目标全栈,物联开发
 - 目前使用：  phyton PHP golang c/c++ swift JAVA JavaScript。
 - 热衷于手机APP，微信开发，Raspberry，lot...
-<a href="{{ site.baseurl }}/jianliJap.rar" target="_blank"> 「我的简历(日文版)」 </a> 
+- <a href="{{ site.baseurl }}/jianliJap.rar" target="_blank"> 「我的简历(日文版)」 </a> 
 
 ---
 **独立开发项目**：
