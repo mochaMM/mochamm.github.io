@@ -63,8 +63,8 @@ ID|项 目 名 称| 开 发 语 言| 功 能 简 述| 框架| 是否上线|
 	<a href="#" onmouseover="mousemethod('block','img2')" onmouseout="mousemethod('none','img2')" style="color:#008B00;text-decoration:none">公众号：ITPlayer</a><img id="img2" src="http://omjh2j5h3.bkt.clouddn.com/kanggzh.png" style="display:none;" width="128" height="128" >
  
 <p>
-<!--紫罗兰蓝色 -->
-<a href="/lovecha/" style="color:#708090"  target="_blank"> <h5>Website Time</h5></a>
+<!--中粉紫色-->
+<a href="/lovecha/" style="color:#ba55d3"  target="_blank"> <h5>Website Time</h5></a>
 <!--<a href="/lovecha/" style="color:#708090"  target="_blank"> <h5>Website Time</h5></a>  -->
 </p>
 
