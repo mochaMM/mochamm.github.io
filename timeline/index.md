@@ -4,16 +4,6 @@ title: 时光轴
 excerpt: "blog-时光轴"
 comments: false
 ---
-<script>
-	if("13612122561"==prompt("Please input password, password is my mobile"))
-	{
-		alert("Right");
-	else
-	{
-		alert("Wrong");
-		location="http://www.xiangnandao.com";
-	}
-</script>
 <html class="no-js">
 <head>
     <title>时光轴 - {{ site.title }}</title>
