@@ -17,5 +17,5 @@ title: 相册「USEFUL LINKS」
 <h2>相册「我就是我 不一样的烟火」</h2>  
 </p>
 
-<a href="/photosofown/" target="_blank"><img src="https://farm5.staticflickr.com/4266/35263890330_d76b2b14d5_z.jpg" width="967" height="195" alt="photos" display="block"/></a>
+<a href="/photosofown/" target="_blank"><img src="https://farm5.staticflickr.com/4266/35263890330_d76b2b14d5_z.jpg" width="967" height="195" alt="photosofown" display="block"/></a>
 
