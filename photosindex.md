@@ -18,4 +18,4 @@ title: 相册「USEFUL LINKS」
 <a href="/photosofown/"  style="color:#272727" target="_blank"> <h1>相册「我就是我，不一样的烟火」</h1></a>  
 </p>
 
-<a href="/photos/" target="_blank"><img src="http://omjh2j5h3.bkt.clouddn.com/tupian.png" width="967" height="195" alt="photos" display="block"/></a>
+<a href="/photos/" target="_blank"><img src="https://farm5.staticflickr.com/4214/35263898770_cfb43b9a8d.jpg" width="967" height="195" alt="photos" display="block"/></a>
