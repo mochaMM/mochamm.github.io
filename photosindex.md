@@ -8,7 +8,14 @@ title: 相册「USEFUL LINKS」
 <P>Life is colorful, this website is a window which used to present the color of my life.    
 
 <p>
-<a href="/photos/"  style="color:#272727" target="_blank"> <h1>相册「Photos」</h1></a>  
+<a href="/photos/"  style="color:#272727" target="_blank"> <h1>相册「2014青梅之行」</h1></a>  
+</p>
+
+<a href="/photos/" target="_blank"><img src="http://omjh2j5h3.bkt.clouddn.com/tupian.png" width="967" height="195" alt="photos" display="block"/></a>
+
+
+<p>
+<a href="/photosofown/"  style="color:#272727" target="_blank"> <h1>相册「我就是我，不一样的烟火」</h1></a>  
 </p>
 
 <a href="/photos/" target="_blank"><img src="http://omjh2j5h3.bkt.clouddn.com/tupian.png" width="967" height="195" alt="photos" display="block"/></a>
