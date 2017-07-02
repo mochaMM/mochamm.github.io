@@ -59,8 +59,9 @@ ID|项 目 名 称| 开 发 语 言| 功 能 简 述| 框架| 是否上线|
 	}
 </script>
 
-<p>邮箱：673890630@qq.com &emsp;<a href="#" onmouseover="mousemethod('block','img1')" onmouseout="mousemethod('none','img1')" style="color:#FF4500;text-decoration:none">微信：shine_netty</a><img id="img1" src="http://omjh2j5h3.bkt.clouddn.com/kangweix.png" style="display:none;"  width="128" height="128">&emsp;
-	<a href="#" onmouseover="mousemethod('block','img2')" onmouseout="mousemethod('none','img2')" style="color:#008B00;text-decoration:none">公众号：ITPlayer</a><img id="img2" src="http://omjh2j5h3.bkt.clouddn.com/kanggzh.png" style="display:none;" width="128" height="128" >
+<p>邮箱：673890630@qq.com &emsp;
+       <a href="#" onmouseover="mousemethod('block','img1')" onmouseout="mousemethod('none','img1')" style="color:#FF4500;text-decoration:none">微信：shine_netty</a><img id="img1" src="http://osg1u3s09.bkt.clouddn.com/image/jpg/material/weixin.png" style="display:none;"  width="128" height="128">&emsp;
+	<a href="#" onmouseover="mousemethod('block','img2')" onmouseout="mousemethod('none','img2')" style="color:#008B00;text-decoration:none">公众号：ITPlayer</a><img id="img2" src="http://osg1u3s09.bkt.clouddn.com/image/jpg/material/IT_player.jpg" style="display:none;" width="128" height="128" >
  
 <p>
 <!--中粉紫色-->
