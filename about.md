@@ -64,8 +64,7 @@ ID|项 目 名 称| 开 发 语 言| 功 能 简 述| 框架| 是否上线|
  
 <p>
 <!--中粉紫色-->
-<a href="/lovecha/" style="color:#ba55d3"  target="_blank"> <h5>Website Time</h5></a>
-<!--<a href="/lovecha/" style="color:#708090"  target="_blank"> <h5>Website Time</h5></a>  -->
+<a href="/lovecha/" style="color:#708090"  target="_blank"> <h5>Website Time</h5></a>  
 </p>
 
 
