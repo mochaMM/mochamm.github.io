@@ -68,7 +68,7 @@ ID|项 目 名 称| 开 发 语 言| 功 能 简 述| 框架| 是否上线|
 <a href="/lovecha/" style="color:#708090"  target="_blank"> <h5>Website Time</h5></a>  
 </p>
 
-<audio autoplay="autopaly">
+<audio autoplay="autoplay">
              <source src="http://osg1u3s09.bkt.clouddn.com/music/lovestory.mp3" type="audio/mp3"></a>
 </audio>
 
