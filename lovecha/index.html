@@ -25,13 +25,21 @@
 	
 <script type="text/javascript">
 //--创建触摸监听，当浏览器打开页面时，触摸屏幕触发事件，进行音频播放
-document.addEventListener('touchstart', function () {
-    function audioAutoPlay() {
-        var audio = document.getElementById('audio');
-            audio.play();
-    }
-    audioAutoPlay();
-});
+//document.addEventListener('touchstart', function () {
+//    function audioAutoPlay() {
+//        var audio = document.getElementById('audio');
+//            audio.play();
+//    }
+//    audioAutoPlay();
+//});
+	var audio = document.createElement("audio");
+        audio.src = "http://osg1u3s09.bkt.clouddn.com/HEART_STATION.mp3";
+	audio.addEventListener("canplaythrough",
+           function() {
+	      alert('音频文件已经准备好，随时待命');
+           },
+        false)
+	audio.play();
 </script>
 
 </head>
