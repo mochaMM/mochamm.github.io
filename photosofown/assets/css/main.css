@@ -860,9 +860,10 @@
 			#thumbnails article .thumbnail {
 				-webkit-tap-highlight-color: transparent;
 				display: block;
-				position: relative;
+				height: 100%;
+				/*position: relative;
 				border: 0;
-				outline: 0;
+				outline: 0;*/
 			}
 
 				#thumbnails article .thumbnail img {
@@ -885,7 +886,7 @@
 					position: absolute;
 					left: 0;
 					top: 0;
-					/*width: 100%;*/
+					width: 100%;
 					height: 100%;
 					box-shadow: inset 0 0 0 2px #00D3B7, inset 0 0 0px 3px rgba(0, 0, 0, 0.15);
 					opacity: 0;
