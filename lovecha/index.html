@@ -18,9 +18,24 @@
 .STYLE1 {color: #666666}
 -->
         </style>
-<script type="text/javascript" async="" src="./index_files/embed.js" charset="UTF-8"></script><link type="text/css" rel="stylesheet" href="./index_files/embed.default.css"><style type="text/css">#ds-thread .ds-powered-by{display:none!important;}
-</style></head>
-    <body>
+<script type="text/javascript" async="" src="./index_files/embed.js" charset="UTF-8"></script>
+	<link type="text/css" rel="stylesheet" href="./index_files/embed.default.css">
+	<style type="text/css">#ds-thread .ds-powered-by{display:none!important;}
+        </style>
+	
+<script type="text/javascript">
+//--创建触摸监听，当浏览器打开页面时，触摸屏幕触发事件，进行音频播放
+document.addEventListener('touchstart', function () {
+    function audioAutoPlay() {
+        var audio = document.getElementById('audio');
+            audio.play();
+    }
+    audioAutoPlay();
+});
+</script>
+
+</head>
+<body>
 			<audio autoplay="autoplay">
 					<!--<source src="http://omjh2j5h3.bkt.clouddn.com/iloveu.mp3" type="audio/mp3"></a>-->
 	                                 <source src="http://osg1u3s09.bkt.clouddn.com/HEART_STATION.mp3" type="audio/mp3"></a>
