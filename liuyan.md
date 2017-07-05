@@ -4,7 +4,7 @@ title: 留言板「MESSAGE」
 ---
 
 <!-- <img src="http://osg1u3s09.bkt.clouddn.com/image/jpg/material/bikenewfont.png" width="360" height="250" alt="huanying"/> -->
-<img src="http://osg1u3s09.bkt.clouddn.com/image/jpg/material/bikenewfontsmall2.png" width="727" height="411" alt="huanying"/>
+<img src="http://osg1u3s09.bkt.clouddn.com/image/jpg/material/bikenewfontsmall2.png" width="564" height="316" alt="huanying"/>
 
 
 <p><h4>有什么话要对我说吗？</h4>     
