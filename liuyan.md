@@ -16,10 +16,7 @@ title: 留言板「MESSAGE」
 	</audio>
 
 <div>  
-           
- 
-<object width="330" height="180" data="http://music.163.com/style/swf/widget.swf?sid=441877316&type=0&auto=1&width=310&height=430" type="application/x-shockwave-flash"></object>  
-          
+   <object width="330" height="180" data="http://music.163.com/style/swf/widget.swf?sid=441877316&type=0&auto=1&width=310&height=430"       type="application/x-shockwave-flash"></object>  
   </div> 
 -->
 
@@ -58,21 +55,31 @@ title: 留言板「MESSAGE」
 <script src="/js/jquery.marquee.min.js"></script>
 
 <script>
-	var	playlist = [
+var	playlist = [
 {title:"My All",artist:"浜崎あゆみ",mp3:"http://omjh2j5h3.bkt.clouddn.com/music/%E6%B5%9C%E5%B4%8E%E3%81%82%E3%82%86%E3%81%BF%20-%20MY%20ALL.mp3",cover:"http://p4.music.126.net/7VJn16zrictuj5kdfW1qHA==/3264450024433083.jpg?param=106x106",},
+
 {title:"Try Everything",artist:"Shakira",mp3:"http://omjh2j5h3.bkt.clouddn.com/music/Shakira%20-%20Try%20Everything.mp3",cover:"http://p4.music.126.net/KLw_TLTRUe9pClPv4vlEtQ==/936783906865219.jpg?param=106x106",},
+
 {title:"Victory",artist:"Two Steps From Hell",mp3:"http://omjh2j5h3.bkt.clouddn.com/music/Two%20Steps%20From%20Hell%20-%20Victory.mp3",cover:"http://p4.music.126.net/YXY1vPG5rtdV7w_cWDnNWw==/884007348732141.jpg?param=106x106",},
+
 {title:"Monody",artist:"TheFatRat,Laura Brehm",mp3:"http://omjh2j5h3.bkt.clouddn.com/TheFatRat,Laura%20Brehm%20-%20Monody.mp3",cover:"http://p3.music.126.net/1odRfg3HXWmYw02EMXKRKQ==/116548232557498.jpg?param=106x106",},
+
 {title:"Luv Letter",artist:"dj okawari ",mp3:"http://omjh2j5h3.bkt.clouddn.com/music/Luv%20Letter.mp3",cover:"http://p4.music.126.net/F2fqWwTTT2DAOKPQKQ-G0A==/5892282813545901.jpg?param=106x106",},
+
 {title:"Born this way",artist:"lady gaga ",mp3:"http://omjh2j5h3.bkt.clouddn.com/music/Born%20this%20way.mp3",cover:"http://p4.music.126.net/G2nCsXpMc81lcUY-pOHr9Q==/2528876745541310.jpg?param=106x106",},
+
 {title:"The Edge of Glory",artist:"Lady Gaga",mp3:"http://omjh2j5h3.bkt.clouddn.com/music/The%20Edge%20of%20Glory.mp3",cover:"http://p3.music.126.net/iYG3tZ2xSKrzf65BaDtEJQ==/7929677860524772.jpg?param=106x106",},
+
 {title:"Beautiful",artist:"Eminem ",mp3:"http://omjh2j5h3.bkt.clouddn.com/music/Beautiful.mp3",cover:"http://p4.music.126.net/F2fqWwTTT2DAOKPQKQ-G0A==/5892282813545901.jpg?param=106x106",},
+
 {title:"Hall of Fame",artist:"the script/will.i.am",mp3:"http://omjh2j5h3.bkt.clouddn.com/music/Hall%20of%20Fame.mp3",cover:"http://p4.music.126.net/d5ryd0uwq29KWk3bRZ1wsA==/45079976751142.jpg?param=106x106",},
+
 {title:"刚好遇见你",artist:"李玉刚",mp3:"http://omjh2j5h3.bkt.clouddn.com/music/%E6%9D%8E%E7%8E%89%E5%88%9A%20-%20%E5%88%9A%E5%A5%BD%E9%81%87%E8%A7%81%E4%BD%A0.mp3",cover:"http://p4.music.126.net/Nn8kTtc14uWJw_UWbEc5mg==/7909886650478099.jpg?param=106x106",},
 ];
   var isRotate = true;
   var autoplay = true;
 </script>
+
 <script src="/js/player.js"></script>
 <script>
 
