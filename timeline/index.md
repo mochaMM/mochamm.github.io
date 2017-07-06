@@ -1,3 +1,9 @@
+---
+layout: timeline
+title: 时光轴
+excerpt: "blog-时光轴"
+comments: false
+---
 <script>
 	if("19771212"==prompt("Please input password, password is my birthday"))
 	{
