@@ -135,7 +135,7 @@ jQuery(document).ready(function ($) {
 //无聊动动
 jQuery(document).ready(function ($) {
     window.setInterval(function () {
-        msgs = ["播报明日天气<iframe name=\"xidie\" src=\"http://heartmoving.com/skin/2020-0601.html\"frameborder=\“0\” scrolling=\"no\" height=\"15px\"  width=\"130px\" allowtransparency=\"true\" ></iframe>", "快快订阅我的博客吧！<a href=\"http://robotkang.cc/\" target=\"_blank\" rel=\"external\" tip=\"Feed\"><img border=\"0\" title=\"订阅乱了感觉\" alt=\"Feed\" src=\"/dsimg/weipayimg.jpg\" width=\"80\" height=\"80\"></a>", "乾坤大挪移！", "我飘过来了！~", "我飘过去了", "我得意地飘！~飘！~"];
+        msgs = ["播报明日天气<iframe name=\"xidie\" src=\"http://heartmoving.com/skin/2020-0601.html\"frameborder=\“0\” scrolling=\"no\" height=\"15px\"  width=\"130px\" allowtransparency=\"true\" ></iframe>", "快快订阅我的博客吧！<a href=\"http://www.xiangnandao.com/\" target=\"_blank\" rel=\"external\" tip=\"Feed\"><img border=\"0\" title=\"订阅乱了感觉\" alt=\"Feed\" src=\"/dsimg/weipayimg.jpg\" width=\"80\" height=\"80\"></a>", "乾坤大挪移！", "我飘过来了！~", "我飘过去了", "我得意地飘！~飘！~"];
         var i = Math.floor(Math.random() * msgs.length);
         s = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6,0.7,0.75,-0.1, -0.2, -0.3, -0.4, -0.5, -0.6,-0.7,-0.75];
         var i1 = Math.floor(Math.random() * s.length);
