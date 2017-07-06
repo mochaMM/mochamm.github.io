@@ -58,12 +58,13 @@ comments: false
             <div class="media">
                 <img src="../upload-img/bj/014.jpg" width="240" height="180">
             </div>
-               <p>痛着却并不快乐</p>
+            <p>痛着却并不快乐</p>
             <br class="clear">
         </dd>
     </dl> 
-  </div>  
-  <div class="timelineMajor">
+</div> 
+
+<div class="timelineMajor">
     <h2 class="timelineMajorMarker"><span>2010</span></h2>
     <!-- /.timelineMinor -->
     <dl class="timelineMinor">
@@ -80,6 +81,7 @@ comments: false
         <!-- /.timelineEvent -->
     </dl>
 </div>
+
 <div class="timelineMajor">
     <h2 class="timelineMajorMarker"><span>2007</span></h2>
     <!-- /.timelineMinor -->
@@ -144,7 +146,7 @@ comments: false
 <script>
     $(document).ready(function () {
         $.timeliner({
-            startOpen: ['#20161212EX', '#20160706EX','#20160622EX'],
+            <!--startOpen: ['#20161212EX', '#20160706EX','#20160622EX'],-->
             expandAllText: '+ 全部展开',
             collapseAllText: '- 全部折叠'
         });
