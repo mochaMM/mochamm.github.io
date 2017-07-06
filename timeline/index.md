@@ -1,5 +1,6 @@
 ---
 layout: timeline
+layout: post
 title: 时光轴
 excerpt: "blog-时光轴"
 comments: false
