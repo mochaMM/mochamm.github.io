@@ -6,7 +6,7 @@ title: 最近访客「Recent Visitors」
 
 ![Recent Visitors](http://omjh2j5h3.bkt.clouddn.com/2017.03.17.png)
 
-<div id="hot-news-wrap"></div>
+<!--<div id="hot-news-wrap"></div>
 <script>var yunModuleEnv = true;</script>
 <script src="https://img1.cache.netease.com/f2e/tie/yun/sdk/loader.js"></script>
 <script>
@@ -14,9 +14,13 @@ title: 最近访客「Recent Visitors」
   var yunHotNewsWrap = "hot-news-wrap";   //放置的DOM节点ID 或 样式类
   Tie.loader("aHR0cHM6Ly9hcGkuZ2VudGllLjE2My5jb20vZXh0ZW5kL2hvdF9uZXdzX3NjcmlwdC5odG1s", true);
 </script>
+-->
 
-
-
-
-
-
+<div id="hot-news-wrap"></div>
+<script>var yunModuleEnv = true;</script>
+<script src="https://img1.cache.netease.com/f2e/tie/yun/sdk/loader.js"></script>
+<script>
+  var yunTieProductKey = "36a79d16b76f4986bebd77e48a1e3fe4";  
+  var yunHotNewsWrap = "hot-news-wrap";   //放置的DOM节点ID 或 样式类
+  Tie.loader("aHR0cHM6Ly9hcGkuZ2VudGllLjE2My5jb20vcGMvbGl2ZXNjcmlwdC5odG1s", true);
+</script>
