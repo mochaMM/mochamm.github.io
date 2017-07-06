@@ -3,7 +3,8 @@
 jQuery(document).ready(function ($) {
     $("#spig").mousedown(function (e) {
         if(e.which==3){
-        showMessage("秘密通道:<br /><a href=\"http://robotkang.cc/liuyan/\" title=\"留言\">留言</a>    <a href=\"http://robotkang.cc/#blog\" title=\"首页\">首页</a>",10000);
+        showMessage("秘密通道:<br /><a href=\"http://www.xiangnandao.com/liuyan/\" title=\"留言\">留言</a>    
+		    <a href=\"http://www.xiangnandao.com/#blog\" title=\"首页\">首页</a>",10000);
 }
 });
 $("#spig").bind("contextmenu", function(e) {
@@ -50,7 +51,7 @@ jQuery(document).ready(function ($) {
         }
     }
     else {
-        showMessage('欢迎' + visitor + '来到亢志军的个人博客《' + title + '》', 6000);
+        showMessage('欢迎' + visitor + '来到抹茶的个人博客《' + title + '》', 6000);
     }
     $(".spig").animate({
         top: $(".spig").offset().top + 300,
