@@ -56,25 +56,42 @@ title: 留言板「MESSAGE」
 
 <script>
 var	playlist = [
-{title:"My All",artist:"浜崎あゆみ",mp3:"http://omjh2j5h3.bkt.clouddn.com/music/%E6%B5%9C%E5%B4%8E%E3%81%82%E3%82%86%E3%81%BF%20-%20MY%20ALL.mp3",cover:"http://p4.music.126.net/7VJn16zrictuj5kdfW1qHA==/3264450024433083.jpg?param=106x106",},
 
-{title:"Try Everything",artist:"Shakira",mp3:"http://omjh2j5h3.bkt.clouddn.com/music/Shakira%20-%20Try%20Everything.mp3",cover:"http://p4.music.126.net/KLw_TLTRUe9pClPv4vlEtQ==/936783906865219.jpg?param=106x106",},
+{title:"Apologize",artist:"Timbaland",mp3:"http://osg1u3s09.bkt.clouddn.com/music/Timbaland-Apologize.mp3",cover:"http://p4.music.126.net/Nn8kTtc14uWJw_UWbEc5mg==/7909886650478099.jpg?param=106x106",},
 
-{title:"Victory",artist:"Two Steps From Hell",mp3:"http://omjh2j5h3.bkt.clouddn.com/music/Two%20Steps%20From%20Hell%20-%20Victory.mp3",cover:"http://p4.music.126.net/YXY1vPG5rtdV7w_cWDnNWw==/884007348732141.jpg?param=106x106",},
+{title:"I Believe",artist:"絢香",mp3:"http://osg1u3s09.bkt.clouddn.com/music/%E7%B5%A2%E9%A6%99-I%20Believe.mp3",cover:"http://p4.music.126.net/Nn8kTtc14uWJw_UWbEc5mg==/7909886650478099.jpg?param=106x106",},
 
-{title:"Monody",artist:"TheFatRat,Laura Brehm",mp3:"http://omjh2j5h3.bkt.clouddn.com/TheFatRat,Laura%20Brehm%20-%20Monody.mp3",cover:"http://p3.music.126.net/1odRfg3HXWmYw02EMXKRKQ==/116548232557498.jpg?param=106x106",},
 
-{title:"Luv Letter",artist:"dj okawari ",mp3:"http://omjh2j5h3.bkt.clouddn.com/music/Luv%20Letter.mp3",cover:"http://p4.music.126.net/F2fqWwTTT2DAOKPQKQ-G0A==/5892282813545901.jpg?param=106x106",},
+{title:"おかえり",artist:"絢香",mp3:"http://osg1u3s09.bkt.clouddn.com/music/%E7%B5%A2%E9%A6%99-%E3%81%8A%E3%81%8B%E3%81%88%E3%82%8A.mp3",cover:"http://p4.music.126.net/Nn8kTtc14uWJw_UWbEc5mg==/7909886650478099.jpg?param=106x106",},
 
-{title:"Born this way",artist:"lady gaga ",mp3:"http://omjh2j5h3.bkt.clouddn.com/music/Born%20this%20way.mp3",cover:"http://p4.music.126.net/G2nCsXpMc81lcUY-pOHr9Q==/2528876745541310.jpg?param=106x106",},
 
-{title:"The Edge of Glory",artist:"Lady Gaga",mp3:"http://omjh2j5h3.bkt.clouddn.com/music/The%20Edge%20of%20Glory.mp3",cover:"http://p3.music.126.net/iYG3tZ2xSKrzf65BaDtEJQ==/7929677860524772.jpg?param=106x106",},
+{title:"Jewelry Day",artist:"絢香",mp3:"http://osg1u3s09.bkt.clouddn.com/music/%E7%B5%A2%E9%A6%99-Jewelry%20Day.mp3",cover:"http://p4.music.126.net/d5ryd0uwq29KWk3bRZ1wsA==/45079976751142.jpg?param=106x106",},
 
-{title:"Beautiful",artist:"Eminem ",mp3:"http://omjh2j5h3.bkt.clouddn.com/music/Beautiful.mp3",cover:"http://p4.music.126.net/F2fqWwTTT2DAOKPQKQ-G0A==/5892282813545901.jpg?param=106x106",},
+{title:"Flavor Of Life",artist:"宇多田ヒカル",mp3:"http://osg1u3s09.bkt.clouddn.com/music/%E5%AE%87%E5%A4%9A%E7%94%B0%E3%83%92%E3%82%AB%E3%83%AB-Flavor%20Of%20Life%20-%20Ballad%20Version%20-.mp3",cover:"http://p4.music.126.net/Nn8kTtc14uWJw_UWbEc5mg==/7909886650478099.jpg?param=106x106",},
 
-{title:"Hall of Fame",artist:"the script/will.i.am",mp3:"http://omjh2j5h3.bkt.clouddn.com/music/Hall%20of%20Fame.mp3",cover:"http://p4.music.126.net/d5ryd0uwq29KWk3bRZ1wsA==/45079976751142.jpg?param=106x106",},
+
+{title:"HEART_STATION",artist:"宇多田ヒカル",mp3:"http://osg1u3s09.bkt.clouddn.com/music/HEART_STATION.mp3",cover:"http://p4.music.126.net/F2fqWwTTT2DAOKPQKQ-G0A==/5892282813545901.jpg?param=106x106",},
+
+
+{title:"First Love",artist:"宇多田ヒカル",mp3:"http://osg1u3s09.bkt.clouddn.com/music/%E5%AE%87%E5%A4%9A%E7%94%B0%E3%83%92%E3%82%AB%E3%83%AB-First%20Love%20-Original%20Karaoke.mp3",cover:"http://p3.music.126.net/iYG3tZ2xSKrzf65BaDtEJQ==/7929677860524772.jpg?param=106x106",},
+
+
+{title:"lovestory",artist:"小田和正 ",mp3:"http://osg1u3s09.bkt.clouddn.com/music/lovestory.mp3",cover:"http://p4.music.126.net/G2nCsXpMc81lcUY-pOHr9Q==/2528876745541310.jpg?param=106x106",},
+
+
+{title:"单行的轨道",artist:"G.E.M. 邓紫棋",mp3:"http://osg1u3s09.bkt.clouddn.com/music/G.E.M.%20%E9%82%93%E7%B4%AB%E6%A3%8B%20-%20%E5%8D%95%E8%A1%8C%E7%9A%84%E8%BD%A8%E9%81%93%20%5Bmqms2%5D.mp3",cover:"http://p4.music.126.net/Nn8kTtc14uWJw_UWbEc5mg==/7909886650478099.jpg?param=106x106",},
+
+{title:"很爱过",artist:"丁当",mp3:"http://osg1u3s09.bkt.clouddn.com/music/%E4%B8%81%E5%BD%93%20-%20%E5%BE%88%E7%88%B1%E8%BF%87%20%5Bmqms2%5D.mp3",cover:"http://p4.music.126.net/7VJn16zrictuj5kdfW1qHA==/3264450024433083.jpg?param=106x106",},
+
+
+{title:"意外",artist:"薛之谦",mp3:"http://osg1u3s09.bkt.clouddn.com/music/%E8%96%9B%E4%B9%8B%E8%B0%A6-%E6%84%8F%E5%A4%96.mp3",cover:"http://p3.music.126.net/1odRfg3HXWmYw02EMXKRKQ==/116548232557498.jpg?param=106x106",},
 
 {title:"刚好遇见你",artist:"李玉刚",mp3:"http://omjh2j5h3.bkt.clouddn.com/music/%E6%9D%8E%E7%8E%89%E5%88%9A%20-%20%E5%88%9A%E5%A5%BD%E9%81%87%E8%A7%81%E4%BD%A0.mp3",cover:"http://p4.music.126.net/Nn8kTtc14uWJw_UWbEc5mg==/7909886650478099.jpg?param=106x106",},
+
+{title:"Whataya Want from Me",artist:"Adam Lambert",mp3:"http://osg1u3s09.bkt.clouddn.com/music/Adam%20Lambert%20-%20Whataya%20Want%20from%20Me%20%5Bmqms2%5D.mp3",cover:"http://p4.music.126.net/YXY1vPG5rtdV7w_cWDnNWw==/884007348732141.jpg?param=106x106",},
+
+{title:"총 맞은 것처럼 (像中枪一样)",artist:"백지영 (白智英) - ",mp3:"http://osg1u3s09.bkt.clouddn.com/music/%EB%B0%B1%EC%A7%80%EC%98%81%20%28%E7%99%BD%E6%99%BA%E8%8B%B1%29%20-%20%EC%B4%9D%20%EB%A7%9E%EC%9D%80%20%EA%B2%83%EC%B2%98%EB%9F%BC%20%28%E5%83%8F%E4%B8%AD%E6%9E%AA%E4%B8%80%E6%A0%B7%29%20%5Bmqms2%5D.mp3",cover:"http://p4.music.126.net/KLw_TLTRUe9pClPv4vlEtQ==/936783906865219.jpg?param=106x106",},
+
 ];
   var isRotate = true;
   var autoplay = true;
