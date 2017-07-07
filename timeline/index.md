@@ -40,9 +40,9 @@ comments: false
     <h2 class="timelineMajorMarker"><span>2011-至今，7年了</span></h2>
     <!-- /.timelineMinor -->
     <dl class="timelineMinor">
-        <dt id="20161212"><a>还在津城，全运会要开了</a></dt>
+        <dt id="20170101"><a>还在津城，全运会要开了</a></dt>
         <dd class="timelineEvent" id="20161212EX" style="display:none;">
-            <h3>2016.12.12</h3>
+            <h3>2017.01.01</h3>
             <div class="media">
                 <img src="../upload-img/bj/013.jpg" width="240" height="180">
             </div>
@@ -72,7 +72,8 @@ comments: false
         <dd class="timelineEvent" id="20130621EX" style="display:none;">
             <h3>2009.03.01</h3>
             <div class="media">
-                <img src="http://osg1u3s09.bkt.clouddn.com/image/jpg/timeline/DSC_0099.JPG?imageView2/2/w/1920/h/1080/q/75|imageslim" width="240" height="180">
+                <img src="http://osg1u3s09.bkt.clouddn.com/image/jpg/timeline/DSC_Japan2.JPG?imageView2/2/w/1920/h/1080/q/75|imageslim" width="240" height="180">
+		<img src="http://osg1u3s09.bkt.clouddn.com/image/jpg/timeline/DSC_Japan1.JPG? width="240" height="180">
             </div>
             <p>喜欢这里的工作氛围，优雅的自然环境，美味食物，商店etc</p>
             <p>又到夏天了，很怀念烟火季节</p>
@@ -90,7 +91,7 @@ comments: false
         <dd class="timelineEvent" id="20130621EX" style="display:none;">
             <h3>2007.10.01</h3>
             <div class="media">
-                <img src="http://osg1u3s09.bkt.clouddn.com/image/jpg/timeline/DSCN0663.JPG" width="240" height="180">
+                <img src="http://osg1u3s09.bkt.clouddn.com/image/jpg/timeline/DSCN_Dalian.JPG" width="240" height="180">
             </div>
             <p>很漂亮的城市，有山有水有海</p>
             <p>如果不是......应该在这里定居，喜欢这里的一切</p>
@@ -125,7 +126,7 @@ comments: false
         <dd class="timelineEvent" id="20090822EX" style="display:none;">
             <h3>2000.07.10</h3>
             <div class="media">
-                <img src="../upload-img/bj/shisan13.jpeg" width="240" height="180">
+                <img src="http://osg1u3s09.bkt.clouddn.com/image/jpg/timeline/DSC_CUMT1.JPG" width="240" height="180">
             </div>
             <p>四年的相聚，天涯海角，永远回不去的青春---致青春无悔</p>
             <br class="clear">
