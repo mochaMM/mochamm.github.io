@@ -72,7 +72,7 @@ comments: false
         <dd class="timelineEvent" id="20130621EX" style="display:none;">
             <h3>2009.03.01</h3>
             <div class="media">
-                <img src="../upload-img/bj/018.jpg" width="240" height="180">
+                <img src="http://osg1u3s09.bkt.clouddn.com/image/jpg/timeline/DSC_0099.JPG?imageView2/2/w/1920/h/1080/q/75|imageslim" width="240" height="180">
             </div>
             <p>喜欢这里的工作氛围，优雅的自然环境，美味食物，商店etc</p>
             <p>又到夏天了，很怀念烟火季节</p>
