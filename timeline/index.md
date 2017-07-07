@@ -44,7 +44,7 @@ comments: false
         <dd class="timelineEvent" id="20161212EX" style="display:none;">
             <h3>2017.01.01</h3>
             <div class="media">
-                <img src="http://osg1u3s09.bkt.clouddn.com/image/jpg/timeline/DSC_Tianjin.JPG?imageView2/2/w/1920/h/1080/q/75|imageslim" width="240" height="180">
+                <img src="http://osg1u3s09.bkt.clouddn.com/image/jpg/timeline/DSC_Tianjin.JPG?imageView2/2/w/1080/h/1920/q/75|imageslim" width="180" height="240">
             </div>
                <p>为自己的勇敢和天真喝彩</p>
                <p>人还是要有梦想的，万一实现了呢？</p>
@@ -126,7 +126,7 @@ comments: false
         <dd class="timelineEvent" id="20090822EX" style="display:none;">
             <h3>2000.07.10</h3>
             <div class="media">
-                <img src="http://osg1u3s09.bkt.clouddn.com/image/jpg/timeline/DSC_CUMT1?imageView2/2/w/1920/h/1080/q/75|imageslim.JPG" width="240" height="180">
+                <img src="http://osg1u3s09.bkt.clouddn.com/image/jpg/timeline/DSC_CUMT1.jpg?imageView2/2/w/1920/h/1080/q/75|imageslim.JPG" width="240" height="180">
             </div>
             <p>四年的相聚，天涯海角，永远回不去的青春---致青春无悔</p>
             <br class="clear">
