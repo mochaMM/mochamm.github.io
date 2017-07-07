@@ -90,7 +90,7 @@ comments: false
         <dd class="timelineEvent" id="20130621EX" style="display:none;">
             <h3>2007.10.01</h3>
             <div class="media">
-                <img src="../upload-img/bj/018.jpg" width="240" height="180">
+                <img src="http://osg1u3s09.bkt.clouddn.com/image/jpg/timeline/DSCN0663.JPG" width="240" height="180">
             </div>
             <p>很漂亮的城市，有山有水有海</p>
             <p>如果不是......应该在这里定居，喜欢这里的一切</p>
