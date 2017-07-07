@@ -61,10 +61,6 @@ var	playlist = [
 
 {title:"Flavor Of Life",artist:"宇多田ヒカル",mp3:"http://osg1u3s09.bkt.clouddn.com/music/%E5%AE%87%E5%A4%9A%E7%94%B0%E3%83%92%E3%82%AB%E3%83%AB-Flavor%20Of%20Life%20-%20Ballad%20Version%20-.mp3",cover:"http://p4.music.126.net/Nn8kTtc14uWJw_UWbEc5mg==/7909886650478099.jpg?param=106x106",},
 
-
-{title:"Flavor Of Life",artist:"宇多田ヒカル",mp3:"http://osg1u3s09.bkt.clouddn.com/music/%E5%AE%87%E5%A4%9A%E7%94%B0%E3%83%92%E3%82%AB%E3%83%AB-Flavor%20Of%20Life%20-%20Ballad%20Version%20-.mp3",cover:"http://p4.music.126.net/Nn8kTtc14uWJw_UWbEc5mg==/7909886650478099.jpg?param=106x106",},
-
-
 {title:"おかえり",artist:"絢香",mp3:"http://osg1u3s09.bkt.clouddn.com/music/%E7%B5%A2%E9%A6%99-%E3%81%8A%E3%81%8B%E3%81%88%E3%82%8A.mp3",cover:"http://p4.music.126.net/Nn8kTtc14uWJw_UWbEc5mg==/7909886650478099.jpg?param=106x106",},
 
 
@@ -83,8 +79,6 @@ var	playlist = [
 {title:"lovestory",artist:"小田和正 ",mp3:"http://osg1u3s09.bkt.clouddn.com/music/lovestory.mp3",cover:"http://p4.music.126.net/G2nCsXpMc81lcUY-pOHr9Q==/2528876745541310.jpg?param=106x106",},
 
 {title:"First Love",artist:"宇多田ヒカル",mp3:"http://osg1u3s09.bkt.clouddn.com/music/%E5%AE%87%E5%A4%9A%E7%94%B0%E3%83%92%E3%82%AB%E3%83%AB-First%20Love%20-Original%20Karaoke.mp3",cover:"http://p3.music.126.net/iYG3tZ2xSKrzf65BaDtEJQ==/7929677860524772.jpg?param=106x106",},
-
-{title:"Beautiful",artist:"Eminem ",mp3:"http://omjh2j5h3.bkt.clouddn.com/music/Beautiful.mp3",cover:"http://p4.music.126.net/F2fqWwTTT2DAOKPQKQ-G0A==/5892282813545901.jpg?param=106x106",},
 
 {title:"Jewelry Day",artist:"絢香",mp3:"http://osg1u3s09.bkt.clouddn.com/music/%E7%B5%A2%E9%A6%99-Jewelry%20Day.mp3",cover:"http://p4.music.126.net/d5ryd0uwq29KWk3bRZ1wsA==/45079976751142.jpg?param=106x106",},
 
