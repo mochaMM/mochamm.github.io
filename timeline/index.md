@@ -128,6 +128,10 @@ comments: false
             <div class="media">
                 <img src="http://osg1u3s09.bkt.clouddn.com/image/jpg/timeline/DSC_CUMT1.JPG?imageView2/2/w/1920/h/1080/q/75|imageslim" 
 		width="240" height="180">
+		<img src="http://osg1u3s09.bkt.clouddn.com/image/jpg/timeline/DSC_CUMT.JPG?imageView2/2/w/1920/h/1080/q/75|imageslim" 
+		width="240" height="180">
+		<img src="http://osg1u3s09.bkt.clouddn.com/image/jpg/timeline/DSC_CUMT2.JPG?imageView2/2/w/1920/h/1080/q/75|imageslim" 
+		width="240" height="180">
             </div>
             <p>四年的相聚，天涯海角，永远回不去的青春---致青春无悔</p>
             <br class="clear">
