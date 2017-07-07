@@ -57,6 +57,8 @@ title: 留言板「MESSAGE」
 <script>
 var	playlist = [
 
+{title:"Apologize",artist:"Timbaland",mp3:"http://osg1u3s09.bkt.clouddn.com/music/Timbaland-Apologize.mp3",cover:"http://p4.music.126.net/Nn8kTtc14uWJw_UWbEc5mg==/7909886650478099.jpg?param=106x106",},
+
 {title:"I Believe",artist:"絢香",mp3:"http://osg1u3s09.bkt.clouddn.com/music/%E7%B5%A2%E9%A6%99-I%20Believe.mp3",cover:"http://p4.music.126.net/Nn8kTtc14uWJw_UWbEc5mg==/7909886650478099.jpg?param=106x106",},
 
 
