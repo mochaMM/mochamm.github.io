@@ -44,7 +44,7 @@ comments: false
         <dd class="timelineEvent" id="20161212EX" style="display:none;">
             <h3>2017.01.01</h3>
             <div class="media">
-                <img src="../upload-img/bj/013.jpg" width="240" height="180">
+                <img src="http://osg1u3s09.bkt.clouddn.com/image/jpg/timeline/DSC_Tianjin.JPG" width="240" height="180">
             </div>
                <p>为自己的勇敢和天真喝彩</p>
                <p>人还是要有梦想的，万一实现了呢？</p>
@@ -56,7 +56,7 @@ comments: false
         <dd class="timelineEvent" id="20160706EX" style="display:none;">
             <h3>2011.01.01-2014.12.29</h3>
             <div class="media">
-                <img src="../upload-img/bj/014.jpg" width="240" height="180">
+                <img src="http://osg1u3s09.bkt.clouddn.com/image/jpg/timeline/DSC_Tianjin1.JPG" width="240" height="180">
             </div>
             <p>痛着却并不快乐</p>
             <br class="clear">
@@ -108,7 +108,7 @@ comments: false
         <dd class="timelineEvent" id="20130621EX" style="display:none;">
             <h3>2005.09.30</h3>
             <div class="media">
-                <img src="../upload-img/bj/018.jpg" width="240" height="180">
+                <img src="http://osg1u3s09.bkt.clouddn.com/image/jpg/timeline/DSCN_Dalian1.JPG" width="240" height="180">
             </div>
             <p>确实是最发达开放包容的城市</p>
             <p>如果不是觉得自己太过于渺小，也许是很好的选择</p>
