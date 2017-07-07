@@ -56,7 +56,7 @@ comments: false
         <dd class="timelineEvent" id="20160706EX" style="display:none;">
             <h3>2011.01.01-2014.12.29</h3>
             <div class="media">
-                <img src="http://osg1u3s09.bkt.clouddn.com/image/jpg/timeline/DSC_Tianjin1.JPG" width="240" height="180">
+                <img src="http://osg1u3s09.bkt.clouddn.com/image/jpg/timeline/IMG_Tianjin.JPG" width="240" height="180">
             </div>
             <p>痛着却并不快乐</p>
             <br class="clear">
