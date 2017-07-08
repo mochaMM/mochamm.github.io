@@ -82,7 +82,8 @@ Markdown语法参考链接:<a href="https://www.zybuluo.com/mdeditor" target="_b
 
 
 <p>
-<a href="/lovecha/" style="color:#bc8f8f"  target="_blank"> <h4>Website Time</h4></a>  
+<!--<a href="/lovecha/" style="color:#bc8f8f"  target="_blank"> <h4>Website Time</h4></a> -->
+<a href="/lovecha/" style="color:#24bfab"  target="_blank"> <h4>Website Time</h4></a>  
 </p>
 
 
