@@ -16,6 +16,7 @@
 - 目标:全栈,物联开发
 - 目前使用：  phyton PHP golang c/c++ swift JAVA JavaScript。
 - 热衷于手机APP，微信开发，Raspberry，lot...
+- <a href="{{ site.baseurl }}/projectlist.md" target="_blank"> 「独立开发项目」 </a> 
 - <a href="{{ site.baseurl }}/resume" target="_blank"> 「我的简历」 </a> 
 
 <h3> 关于mocha blog</h3>
