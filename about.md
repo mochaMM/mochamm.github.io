@@ -21,6 +21,7 @@ mocha自述-简介
 - 目前使用：  phyton PHP golang c/c++ swift JAVA JavaScript。
 - 热衷于手机APP，微信开发，Raspberry，lot...
 - <a href="{{ site.baseurl }}/resume" target="_blank"> 「我的简历」 </a> 
+
 ---
 
 关于mocha blog
