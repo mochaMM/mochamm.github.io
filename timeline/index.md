@@ -5,7 +5,7 @@ excerpt: "blog-时光轴"
 comments: false
 ---
 <script>
-	if("19771212"==prompt("Please input password, password is my birthday"))
+	if("19771212"==prompt("Please input password, if you know my birthday......"))
 	{
 		alert("Right");
 	}
