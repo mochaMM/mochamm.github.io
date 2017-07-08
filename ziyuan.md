@@ -24,7 +24,7 @@ title: 资源「USEFUL LINKS」
 <img src="http://omjh2j5h3.bkt.clouddn.com/icon/app%E8%A7%84%E8%8C%83.png" width="20" height="20" alt="photos" style="display:inline;margin-bottom: -5px;"/>
 
 <p>
-- 专属软件.&nbsp;&nbsp;
+- 个人软件.&nbsp;&nbsp;
 <a href="/APP/RecorderList.apk" target="_blank">抹茶录音宝</a>
 <img src="http://omjh2j5h3.bkt.clouddn.com/icon/app%E8%A7%84%E8%8C%83.png" width="20" height="20" alt="photos" style="display:inline;margin-bottom: -5px;"/>
 <a href="/APP/TPasswordSave.apk" target="_blank">抹茶账号管理器</a>
