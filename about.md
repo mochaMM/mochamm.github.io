@@ -71,9 +71,9 @@ ID|项 目 名 称| 开 发 语 言| 功 能 简 述| 框架| 是否上线|
 	<a href="#" onmouseover="mousemethod('block','img2')" onmouseout="mousemethod('none','img2')" style="color:#008B00;text-decoration:none">公众号：ITPlayer</a><img id="img2" src="http://osg1u3s09.bkt.clouddn.com/image/jpg/material/IT_player.jpg" style="display:none;" width="128" height="128" >
  
 <!--<p class="text-warning" class="bg-info">-->
-<p class="text-warning" class="lead">
 <!--印第安红-->
-<a href="/lovecha/" style="color:#bc8f8f"  target="_blank"> <h4>Website Time</h4></a>
+<p class="lead">
+<a href="/lovecha/" style="color:#bc8f8f"  target="_blank"><h4>Website Time</h4></a>
 </p>
 
 <!--中粉紫色-->
