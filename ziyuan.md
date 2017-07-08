@@ -22,9 +22,9 @@ title: 资源「USEFUL LINKS」
 <img src="http://omjh2j5h3.bkt.clouddn.com/icon/%E6%B1%82%E5%AD%97%E4%BD%93.png" width="20" height="20" alt="photos" style="display:inline;margin-bottom: -5px;"/>
 <a href="http://wiki.mocha.cc" target="_blank" style="text-decoration:none" > mocha's Wiki </a>个人维基百科库，还未整理！    
 <img src="http://omjh2j5h3.bkt.clouddn.com/icon/app%E8%A7%84%E8%8C%83.png" width="20" height="20" alt="photos" style="display:inline;margin-bottom: -5px;"/>
-<a href="/app/" target="_blank">APP下载1</a>
+<a href="/APP/RecorderList.apk" target="_blank">抹茶录音宝</a>
 <img src="http://omjh2j5h3.bkt.clouddn.com/icon/app%E8%A7%84%E8%8C%83.png" width="20" height="20" alt="photos" style="display:inline;margin-bottom: -5px;"/>
-<a href="/APP/" target="_blank">APP下载2</a>- 专属软件.&nbsp;&nbsp;
+<a href="/APP/TPasswordSave.apk" target="_blank">抹茶账号管理器</a>- 专属软件.&nbsp;&nbsp;
 
 <P>       
 <h3> Some useful/beautiful web </h3>   
