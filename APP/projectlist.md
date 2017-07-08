@@ -39,5 +39,27 @@ ID|项 目 名 称| 开 发 语 言| 功 能 简 述| 框架| 是否上线|
   <th>是否上线</th>
   </tr>
   <tr>
+  <td>1</td>
+  <td>安卓录音应用</td>
+  <td>JAVA</td>
+  <td>手机录音应用</td>
+  <td>无</td>
+  <td>是</td>
+  </tr>
+  <tr>
+  <td>2</td>
+  <td>安卓密码管理器</td>
+  <td>JAVA</td>
+  <td>手机账号密码管理应用</td>
+  <td>无</td>
+  <td>是</td>
+  </tr>
+  <tr>
+  <td>3</td>
+  <td>安卓短消息管理</td>
+  <td>JAVA</td>
+  <td>手机短消息管理</td>
+  <td>无</td>
+  <td>是</td>
   </tr>
 </table>
