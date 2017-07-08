@@ -1,15 +1,14 @@
-
 ---
 layout: page
-title: 独立开发项目「USEFUL LINKS」 
+title: 独立开发项目「 PROJECT LIST」 
 ---
 这是我个人独立开发项目...        
-<P>大家可以随意下载，试用..       
+<P>大家可以随意下载，试用，有bug是肯定的哈哈..       
 <P>Life is colorful, this website is a window which used to present the color of my life.          
 
 
 <P>       
-<h3> Personal Website</h3>   
+<h3> Android APP</h3>    
 <p>
 - 个人软件.&nbsp;&nbsp;
 <img src="http://omjh2j5h3.bkt.clouddn.com/icon/app%E8%A7%84%E8%8C%83.png" width="20" height="20" alt="photos" style="display:inline;margin-bottom: -5px;"/>
