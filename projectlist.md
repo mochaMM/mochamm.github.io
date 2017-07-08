@@ -3,8 +3,8 @@ layout: page
 title: 独立开发项目「 PROJECT LIST」 
 ---
 这是我个人独立开发项目...        
-<P>大家可以随意下载，试用，有bug是肯定的哈哈......
-资源不断增加中
+<P>大家可以随意下载，试用，......
+凭着对世界的一颗好奇心，资源不断增加中
 <P>Life is colorful, this website is a window which used to present the color of my life.          
 
 
