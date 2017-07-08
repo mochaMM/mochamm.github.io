@@ -13,7 +13,7 @@
 
 <h3>关于我</h3>
 - mocha
-- 目标全栈,物联开发
+- 目标:全栈,物联开发
 - 目前使用：  phyton PHP golang c/c++ swift JAVA JavaScript。
 - 热衷于手机APP，微信开发，Raspberry，lot...
 - <a href="{{ site.baseurl }}/resume" target="_blank"> 「我的简历」 </a> 
