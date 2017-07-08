@@ -2,10 +2,16 @@ mocha自述-简介
 ---
 一个顽固的，粗神经线条，脾气有点不大好，被生活折磨，却还没放弃追求的理想主义的老女孩。
 
-我们一出生，就开始疲于奔命。小的时候，被考大学的[崇高]理想所逼迫，大学毕业了，被找个好工作的现实所逼迫，然后是结婚，成家，再又是一个人.......
+我们一出生，就开始疲于奔命。小的时候，被考大学的[崇高]理想所逼迫，大学毕业了，被找个好工作的现实所逼迫，然后是结婚，成家，又或是再一个人.......
 几十年过去了，当初的理想已经幻灭，留在灵魂某个角落尘封。回头想想，是一定要这样被生活追着奔跑吗，不这样就活不下去吗？如果当初有个间隔年多好，至少给理想一个交待.......
 
-年轻可以犯错，犯错可以原谅。但是犯同样的错误就是愚不可及。
+因为年轻，所以会犯错。不后悔走过的弯道。因为所有那些曲折，荆棘，泪水，汗水，都是遵从当初内心的选择，决定。
+只是希望走过太多弯道的自己，今后不要再犯同样的错误。
+
+化蛹成蝶的痛苦，是通向成熟必定要经历的蜕变。要有勇气为自己的梦想买单，否则就别谈梦想......
+
+太多风景很遗憾都是孤独带你去看，虽然你很想当时有人陪在身边。希望今后会有那么一人......
+
 
 
 关于我
@@ -64,9 +70,14 @@ ID|项 目 名 称| 开 发 语 言| 功 能 简 述| 框架| 是否上线|
        <a href="#" onmouseover="mousemethod('block','img1')" onmouseout="mousemethod('none','img1')" style="color:#FF4500;text-decoration:none">微信：shine_netty</a><img id="img1" src="http://osg1u3s09.bkt.clouddn.com/image/jpg/material/weixin.png" style="display:none;"  width="128" height="128">&emsp;
 	<a href="#" onmouseover="mousemethod('block','img2')" onmouseout="mousemethod('none','img2')" style="color:#008B00;text-decoration:none">公众号：ITPlayer</a><img id="img2" src="http://osg1u3s09.bkt.clouddn.com/image/jpg/material/IT_player.jpg" style="display:none;" width="128" height="128" >
  
-<p>
+<!--<p class="text-warning" class="bg-info">-->
+<p class="text-warning" class="lead">
 <!--中粉紫色-->
-<a href="/lovecha/" style="color:#708090"  target="_blank"> <h5>Website Time</h5></a>  
+<!--<a href="/lovecha/" style="color:#708090"  target="_blank"> <h4>Website Time</h4></a> -->
+<!--亮粉红色-->
+<!--<a href="/lovecha/" style="color:#ffb6c1"  target="_blank"> <h4>Website Time</h4></a> -->
+<!--印第安红-->
+<a href="/lovecha/" style="color:#bc8f8f"  target="_blank"> <h4>Website Time</h4></a> 
 </p>
 
 <audio autoplay="autoplay">
