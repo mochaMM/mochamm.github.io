@@ -74,7 +74,10 @@ ID|项 目 名 称| 开 发 语 言| 功 能 简 述| 框架| 是否上线|
 <p class="text-warning" class="lead">
 <!--中粉紫色-->
 <!--<a href="/lovecha/" style="color:#708090"  target="_blank"> <h4>Website Time</h4></a> -->
-<a href="/lovecha/" style="color:#ffb6c1"  target="_blank"> <h4>Website Time</h4></a> 
+<!--亮粉红色-->
+<!--<a href="/lovecha/" style="color:#ffb6c1"  target="_blank"> <h4>Website Time</h4></a> -->
+<!--印第安红-->
+<a href="/lovecha/" style="color:#bc8f8f"  target="_blank"> <h4>Website Time</h4></a> 
 </p>
 
 <audio autoplay="autoplay">
