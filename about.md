@@ -1,4 +1,4 @@
-mocha自述-简介
+<h3>mocha自述-简介</h3>
 ---
 一个顽固的，粗神经线条，脾气有点不大好，被生活折磨，却还没放弃追求的理想主义的老女孩。
 
@@ -14,18 +14,16 @@ mocha自述-简介
 
 
 
-关于我
----
+<h3>关于我</h3>
 - mocha
 - 目标全栈,物联开发
 - 目前使用：  phyton PHP golang c/c++ swift JAVA JavaScript。
 - 热衷于手机APP，微信开发，Raspberry，lot...
 - <a href="{{ site.baseurl }}/resume" target="_blank"> 「我的简历」 </a> 
 
----
 
-关于mocha blog
----
+<h3> 关于mocha blog</h3>
+
 关于「mocha」，我的博客记录我的生活。
 
 生活，除了工作应该还有很多值的我们去记录，当老了还有事情可做......
