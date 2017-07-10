@@ -8,6 +8,9 @@
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <!-- <meta name="author" content="robotkang">-->
   <meta name="author" content="mocha">
+  
+  <meta name="keywords" content="mocha|抹茶|xiangnandao|{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}|{{page.keywords}}">
+  <meta name="关键字" content="mocha|抹茶|xiangnandao|{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}|{{page.keywords}}">
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}">
