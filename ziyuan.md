@@ -52,10 +52,9 @@ title: 资源「USEFUL LINKS」
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="http://robotkang.cc" target="_blank" >robotkang</a>- 机械电子工程师，极客一枚...
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<h3> Others</h3>  
-<p> 
 <a href="http://stormzhang.com" target="_blank" >stormzhang</a>- 一位安卓开发牛人的空间...
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<h3> Others</h3>  
 <p> 
 Markdown语法参考链接:<a href="https://www.zybuluo.com/mdeditor" target="_blank" > 作业部落 </a> &nbsp;&nbsp; <a  href="http://nav.templatesy.com/"  >Templatesy</a>-前端网址导航.
 
