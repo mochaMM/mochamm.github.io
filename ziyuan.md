@@ -52,7 +52,8 @@ title: 资源「USEFUL LINKS」
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="http://robotkang.cc" target="_blank" >robotkang</a>- 机械电子工程师，极客一枚...
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
+<a href="http://www.haoqiabin.cn" target="_blank" >好奇吖斌</a>- 软件工程师，创客，爱好物联物开发...
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <h3> Others</h3>  
 <p> 
 <a href="http://stormzhang.com" target="_blank" >stormzhang</a>- 一位安卓开发牛人的空间...
