@@ -1,0 +1,198 @@
+
+
+<!DOCTYPE>
+
+<html>
+
+    <head>
+
+        <!--Meta tags-->
+
+        <meta charset="utf-8">
+
+        <!--Title-->
+
+        <title>七彩花都视频</title>
+
+        <!--Stylesheets-->
+
+        <link rel="stylesheet" href="css/styles.css">
+
+        <!--jQuery-->
+
+        <script src="js/jquery-1.7.2.min.js"></script>
+	<script src="js/jquery.jplayer.min.js"></script>
+	
+	<script>
+		if("七彩花都"==prompt("咱们小区叫啥名字？"))
+		{
+			alert("Right");
+		}
+		else
+		{
+			alert("Wrong");
+			location="http://www.xiangnandao.com";
+		}
+	</script>
+    </head>
+	
+<body>
+	<!--container for everything-->
+
+	<div id="jp_container_1" class="jp-video jp-video-360p">
+
+		<!--container in which our video will be played-->
+
+		<div id="jquery_jplayer_1" class="jp-jplayer"></div>
+
+		<!--main containers for our controls-->
+
+		<div class="jp-gui">
+
+		    <div class="jp-interface">
+
+		        <div class="jp-controls-holder">
+
+
+					<!--play and pause buttons-->
+
+				    <a href="javascript:;" class="jp-play" tabindex="1">play</a>
+
+				    <a href="javascript:;" class="jp-pause" tabindex="1">pause</a>
+
+				    <span class="separator sep-1"></span>
+				 
+
+					<!--progress bar-->
+
+				    <div class="jp-progress">
+
+				        <div class="jp-seek-bar">
+
+							<div class="jp-play-bar"><span></span></div>
+
+						</div>
+
+				    </div>
+
+
+				    <!--time notifications-->
+
+				    <div class="jp-current-time"></div>
+
+				    <span class="time-sep">/</span>
+
+				    <div class="jp-duration"></div>
+
+				    <span class="separator sep-2"></span>
+
+
+				    <!--mute / unmute toggle-->
+
+				    <a href="javascript:;" class="jp-mute" tabindex="1" title="mute">mute</a>
+
+				    <a href="javascript:;" class="jp-unmute" tabindex="1" title="unmute">unmute</a>
+
+
+				    <!--volume bar-->
+
+				    <div class="jp-volume-bar">
+
+				        <div class="jp-volume-bar-value"><span class="handle"></span></div>
+
+				    </div>
+
+				    <span class="separator sep-2"></span>
+
+				 
+
+				    <!--full screen toggle-->
+
+				    <a href="javascript:;" class="jp-full-screen" tabindex="1" title="full screen">full screen</a>
+
+				    <a href="javascript:;" class="jp-restore-screen" tabindex="1" title="restore screen">restore screen</a>
+
+				
+
+		        </div><!--end jp-controls-holder-->
+
+		    </div><!--end jp-interface-->
+
+		</div><!--end jp-gui-->
+
+		<!--unsupported message-->
+
+		<div class="jp-no-solution">
+
+		    <span>Update Required</span>
+
+		    Here's a message which will appear if the video isn't supported. A Flash alternative can be used here if you fancy it.
+
+		</div>
+
+	</div><!--end jp_container_1-->
+
+	 <div 	class="jumbotron" align="center">
+		 <div class="list-group">   
+		       <!-- <a href="http://www.xiangnandao.com" class="list-group-item list-group-item-success">相片集</a> -->
+			   <!--
+	               <p><h1><a href="http://youran470.lofter.com/post/1effa2e9_10ad3b82">时光正好，我们不老---记夹中高96级20周年聚会（一）</a></h1></p>
+				   <p><h1><a href="http://youran470.lofter.com/post/1effa2e9_10ad3bb0">时光正好，我们不老---记夹中高96级20周年聚会（二）</a></h1></p>
+				   <h1><a href="http://youran470.lofter.com/post/1effa2e9_10ad3bc5">时光正好，我们不老---记夹中高96级20周年聚会（三）</a></h1>
+				   <h1><a href="http://youran470.lofter.com/post/1effa2e9_10ad3bcb">时光正好，我们不老->那些旧时光</a></h1>
+				 -->  
+				  
+				   
+		  </div>
+	 </div>	
+
+	<!--instantiate-->
+
+	<script type="text/javascript">
+
+	$(document).ready(function(){
+
+	 
+
+	    $("#jquery_jplayer_1").jPlayer({
+
+	        ready: function () {
+
+	            $(this).jPlayer("setMedia", {
+
+	                m4v: "mi4.m4v",
+
+	                ogv: "mi4.ogv",
+
+	                // webmv: "images/middleschool20th.webm",
+			webmv: "https://video3.pek3b.qingstor.com/greenpark20190102.mp4?expires=1547072138&signature=CynED%2FNcpmg72X5J4xpCT%2F1N0EjrAeoMNglPOfYxEN4%3D&access_key_id=RGEHVUBFQWYMVBKKFHFX",
+
+	                poster: "mi4.png"
+
+	            });
+
+	        },
+
+	        swfPath: "js",
+
+	        supplied: "webmv, ogv, m4v",
+
+	        size: {
+
+	            width: "570px",
+
+	            height: "340px",
+
+	            cssClass: "jp-video-360p"
+
+	        }
+
+	    });
+
+	});
+
+	</script>
+
+</body>
+
+</html>
