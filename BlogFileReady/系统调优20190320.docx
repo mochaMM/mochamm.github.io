@@ -1,0 +1,133 @@
+
+                             关于系统调优
+     今天想写一篇关于系统优化的文章.
+     这个课题,个人感觉是属于比较高端一些的层面,一般像我们做IT外包的,是接触不到这个层次.为什么?接下来会慢慢道来.
+     系统优化,个人认知属于以下几个方面.一是SQL优化,二是程序优化.
+     首先是SQL优化.很多年前2002,2003年吧,做国内项目的时候,用到了SQL Server,记得那个时候还有SQL执行计划分析器,可以显示表之间的层次关联结构和各部分执行运行时间.反而是到了2018年,用SSMS(Microsoft SQL Server Management Studio)，没有发现SQL执行计划分析器。
+结果在做SSRS报表的时候，因为没有考虑SQL性能问题，使用了inner join，而被日本人指摘。简单的说来，SQL有以下基于性能考虑方面的规则 
+
+一.创建索引
+1.要尽量避免全表扫描，首先应考虑在 where 及 order by 涉及的列上建立索引 
+2.(1)在经常需要进行检索的字段上创建索引，比如要按照表字段username进行检索，那么就应该在姓名字段上创建索引，如果经常要按照员工部门和员工岗位级别进行检索，那么就应该在员工部门和员工岗位级别这两个字段上创建索引。 
+(2)创建索引给检索带来的性能提升往往是巨大的，因此在发现检索速度过慢的时候应该首先想到的就是创建索引。 
+(3)一个表的索引数最好不要超过6个，若太多则应考虑一些不常使用到的列上建的索引是否有 必要。索引并不是越多越好，索引固然可以提高相应的 select 的效率，但同时也降低了 insert 及 update 的效率，因为 insert 或 update 时有可能会重建索引，所以怎样建索引需要慎重考虑，视具体情况而定。
+
+二.避免在索引上使用计算
+在where字句中，如果索引列是计算或者函数的一部分，DBMS的优化器将不会使用索引而使用全表查询,函数 
+属于计算的一种,同时在in和exists中通常情况下使用EXISTS，因为in不走索引 
+效率低：
+
+ select * from user where salary*22>11000(salary是索引列)
+1
+效率高：
+
+ select * from user where salary>11000/22(salary是索引列)
+
+三.查询select语句优化
+（1）：尽量避免select *
+任何地方都不要使用 select * from t ，用具体的字段列表代替“*”，不要返回用不到的任何字段 
+（2）.应尽量避免在 where 子句中对字段进行 null 值判断，否则将导致引擎放弃使用索引而进行全表扫描， 
+如：
+
+1    select id from t where num is null           
+
+可以在num上设置默认值0，确保表中num列没有null值， 
+然后这样查询：
+1      select id from t where num=0
+2      select id from t where num=10 or num=20
+可以这样查询：
+      1     select id from t where num=10
+      2     union all
+3     select id from t where num=20
+
+  （3）： like. 不能前置百分‘%abc%’
+在sql语句里，"like"，"not in","not exists"这几个是比较慢的，原因在于它们的实现机制。例如，如果我们在一个“字符串”里找查“另一个字符串”，而且这个字符串有通配符(%)，不管是用顺序查找还是二分查找，效率都不见得太高。like比较符，如果用的是like "大药房%",这种方式会用索引扫描，但如果是 like "%大药房%",这种方式会用表扫描，该字段上的索引不起作用，速度会非常慢，如果你的记录很多，该字段很大的话。
+1  select id from t where name like ‘%abc%’
+若要提高效率，可以考虑全文检索。
+1  select id from t where num in(1,2,3)
+对于连续的数值，能用 between 就不要用 in 了：
+1  select id from t where num between 1 and 3 
+ 
+     (4): EXISTS、IN与JOIN，都可以用来实现形如“查询A表中在(或不在)B表中的记录”的查询逻辑。
+①：如果查询的两个表大小相当，那么用in和exists差别不大。 
+in： 例如：表A（小表），表B（大表）
+ select * from A where cc in (select cc from B) 效率低，用到了A表上cc列的索引；     
+ select * from A where exists(select cc from B where cc=A.cc)   效率高，用到了B表上cc列的索引。   
+相反的
+ select * from B where cc in (select cc from A)  效率高，用到了B表上cc列的索引；
+ select * from B where exists(select cc from A where cc=B.cc)  效率低，用到了A表上cc列的索引。 
+
+区分in和exists主要是造成了驱动顺序的改变（这是性能变化的关键），如果是exists，那么以外层表为驱动表，先被访问，如果是IN，那么先执行子查询。
+所以IN适合于外表大而内表小的情况；EXISTS适合于外表小而内表大的情况
+
+但是如果两个表中一个较小，一个较大，则子查询表大的用exists，子查询表小的用in，因为in 是把外表和内表作hash 连接，而exists是对外表作loop循环，每次loop循环再对内表进行查询。
+
+②而无论那个表大，用not exists都比not in要快。这是因为如果查询语句使用了not in 那么内外表都进行全表扫描，没有用到索引;而not exists 的子查询依然能用到表上的索引。
+
+③IN的好处是逻辑直观简单(通常是独立子查询);缺点是只能判断单字段，并且当NOT IN时效率较低，而且NULL会导致不想要的结果。
+
+④EXISTS的好处是效率高，可以判断单字段和组合字段，并不受NULL的影响;缺点是逻辑稍微复杂(通常是相关子查询)。
+
+⑤JOIN用在这种场合，往往是吃力不讨好。JOIN的用途是联接两个表，而不是判断一个表的记录是否在另一个表。
+
+⑥在查询的两个表大小相当的情况下，3种查询方式的执行时间通常是:
+EXISTS <= NOT IN <= LEFT JOIN
+不要太多使用not in查询，最好用表连接来取代它。如：
+select ID,name from Table_A where ID not in (select ID from Table_B)
+
+这句是最经典的not in查询了。改为表连接代码如下：
+select Table_A.ID,Table_A.name from Table_A left join Table_B on Table_A.ID=Table_B.ID and Table_B.ID is null
+或者：
+select Table_A.ID,Table_A.name from Table_A left join Table_B on Table_A.ID=Table_B.ID where Table_B.ID is null
+
+(5):  二者都能使用尽量使用where （与having比较）
+where 先过滤（数据就少了）在分组  
+避免使用HAVING字句，因为HAVING只会在检索出所有记录之后才对结果集进行过滤，而where则是在聚合前 刷选记录，如果能通过where字句限制记录的数目，那就能减少这方面的开销。HAVING中的条件一般用于聚合函数 的过滤，除此之外，应该将条件写在where字句中。
+
+(6):  理论上，尽量使用多表连接（join）查询（避免子查询）
+扩展需要否？
+SQL子查询优化
+      https://blog.csdn.net/abysscarry/article/details/81229509
+SQL查询优化 LEFT JOIN和INNER JOIN
+      https://blog.csdn.net/woshisap/article/details/41963305
+SQL优化 查询语句中，用 inner join 作为过滤条件和用where作为过滤条件的区别
+https://www.2cto.com/database/201511/451799.html
+
+（7）.用union all替换union
+当SQL语句需要union两个查询结果集合时，即使检索结果中不会有重复的记录，如果使用
+union这两个结果集同样会尝试进行合并，然后在输出最终结果前进行排序，因此如果可以判
+断检索结果中不会有重复的记录时候，应该用union all，这样效率就会因此得到提高。
+
+（8）.考虑使用“临时表”暂存中间结果
+简化SQL语句的重要方法就是采用临时表暂存中间结果，但是，临时表的好处远远不止这些，
+将临时结果暂存在临时表，后面的查询就在tempdb中了，这可以避免程序中多次扫描主表，
+也大大减少了程序执行中“共享锁”阻塞“更新锁”，减少了阻塞，提高了并发性能。 
+但是也得避免频繁创建和删除临时表，以减少系统表资源的消耗。
+
+（9）.尽量将多条SQL语句压缩到一句SQL中
+每次执行SQL的时候都要建立网络连接、进行权限校验、进行SQL语句的查询优化、发送
+执行结果，这个过程 是非常耗时的，因此应该尽量避免过多的执行SQL语句，能够压缩到一
+句SQL执行的语句就不要用多条来执行。
+
+第二大类，考虑程序上的优化，暂时想到分为以下几个方面。
+以下是单线程关键路径的优化
+一：如果使用C++，C等不能自动释放已分配在堆上的程序不再使用对象的内存，需要手动写代码进行释放。
+二：对于带窗口的程序而言，如果后台有进行长时间暂用系统资源的操作，需要开辟多线程。否则影响用户操作体验。
+三：减少重复计算	
+典型的例子如缓存，将之前相同的计算（查数据库，读写文件）存下来，等待下一次继续使用； 适用场景：计算结果有有效期，过段时间后需要再次计算；
+四：延迟计算
+将计算耗时延迟到后期，这样，对于异常情况或其它分支情况，在中途就转换，不用再计算；
+•	有较多分支条件 
+将最耗时的计算延后，这样，可能很多场景在中途就转到其它分支上，不用计算；
+•	判断条件中的技巧：a||b a&&b 
+如果判断条件比较耗时，将更耗时的放在后面计算；这样，对于a||b,当a成立时，b就不用再计算了；延迟计算的好处在于可能可以不用计算；
+适用场景：分支条件场景；
+五：不计算
+优化的终极方案，不计算；
+（1）业务发现  
+用不到的业务逻辑，废弃的业务逻辑，仍然存在关键路径中的还在执行的；痛快的删除它；
+（2）却掉临时对象开销 
+在我们的代码中，可能会有些临时对象是不知不觉的，而消除临时对象，将节省这部分开销； 
+
+
+
