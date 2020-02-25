@@ -6,7 +6,8 @@ description: 欢迎来到我的个人网站~
 avatarTitle: Mocha
 # 头像里面的描述
 avatarDesc: 物联网/安卓,IOS/ERP
-url: "http://www.xiangnandao.com"
+# url: "http://www.xiangnandao.com"
+url: "https://mochamm.github.io/"
 
 # Comment
 comment:
