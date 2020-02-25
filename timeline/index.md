@@ -12,7 +12,9 @@ comments: false
 	else
 	{
 		alert("Wrong");
-		location="http://www.xiangnandao.com";
+		<!--location="http://www.xiangnandao.com";-->
+		location="https://mochamm.github.io/";
+	
 	}
 </script>
 <html class="no-js">
