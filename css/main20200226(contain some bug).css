@@ -2,6 +2,10 @@
    v2.0 | 20110126
    License: none (public domain)
    unused by shine20200226
+   I changed the file because I transfer my blog from www.xiangnandao.com to https://mochamm.github.io/,
+   then some bugs became in the front page, like the nav bar did not display "博客主页 关于我 相册 时间轴 资源 留言" etc.
+   so I copied  the whole file (https://github.com/MengZheK/githubblog/blob/master/css/main.css) to my repository.
+   and it works well
 */
 @import url(animate.css);
 @import url(tomorrow.css);
