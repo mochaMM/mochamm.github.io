@@ -47,9 +47,16 @@ baidu:
 # 《--------------- 下面的信息可以自行选择是否修改 ------------------------》
 
 
-permalink: /:year/:month/:title/
+# permalink: /:year/:month/:title/
+permalink: /:short_year:i_month:i_day.html
+
 # Format
 highlighter: rouge
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
 textColor: #FF0000
 
@@ -61,7 +68,8 @@ blog_button:
     title: 博客主页
 
 # Navigation buttons in the front page.s
-nav:
+# nav://comment out [nav:],,add instead add the links by shine20200226 
+links:
     - {title: 关于我, description: about, url: '/about'}
     - {title: 相册, description: photosindex, url: '/photosindex'}
     - {title: 时间轴, description: timeline, url: '/timeline'}
