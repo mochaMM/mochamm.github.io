@@ -69,7 +69,7 @@ blog_button:
 
 # Navigation buttons in the front page.s
 # nav://comment out [nav:],,add instead add the links by shine20200226 
-links:
+nav:
     - {title: 关于我, description: about, url: '/about'}
     - {title: 相册, description: photosindex, url: '/photosindex'}
     - {title: 时间轴, description: timeline, url: '/timeline'}
