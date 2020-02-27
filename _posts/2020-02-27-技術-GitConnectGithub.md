@@ -15,9 +15,9 @@ tag: 技術
 #### 参考网址： 
 1. 本地git和远程github连接完整教程   
 <https://blog.csdn.net/dgreh/article/details/83302358>  
-2. github的ssh通过http代理来配置实现  
+2. **github的ssh通过http代理来配置实现**  
 <https://blog.csdn.net/x6_9x/article/details/60873021>  
-3. git报错：'fatal:remote origin already exists'怎么处理？附上git常用操作以及说明。  
+3. git报错：'fatal:remote origin already exists'怎么处理？附上_git常用操作以及说明_。  
 <https://www.cnblogs.com/leaf930814/p/6664706.html>  
 4. 菜鸟Git教程:如何添加远程库等等  
 <https://www.runoob.com/git/git-remote-repo.html>  
