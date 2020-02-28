@@ -25,7 +25,7 @@ tag: 技術
 <https://www.cnblogs.com/wuer888/p/7655856.html>
 + [Git]一个本地Git仓库push多个远程仓库  
 <https://www.jianshu.com/p/80c434e62ce8>
-+ 本地配置多个Git仓库
++ 本地配置多个Git仓库  
 <https://www.jianshu.com/p/185a08c56f97>
 
 <a href="/photos/" target="_blank"><img src="http://omjh2j5h3.bkt.clouddn.com/%E5%A4%A9%E7%AD%96.jpg" width="195" height="195" alt="photos"/></a>
