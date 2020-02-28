@@ -27,6 +27,8 @@ tag: 技術
 <https://www.jianshu.com/p/80c434e62ce8>
 + 本地配置多个Git仓库  
 <https://www.jianshu.com/p/185a08c56f97>
++ 管理本地多个SSH Key  
+https://cloud.tencent.com/developer/article/1365523
 
 <a href="/photos/" target="_blank"><img src="http://omjh2j5h3.bkt.clouddn.com/%E5%A4%A9%E7%AD%96.jpg" width="195" height="195" alt="photos"/></a>
 
