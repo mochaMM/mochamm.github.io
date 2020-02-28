@@ -21,6 +21,8 @@ tag: 技術
 <https://www.cnblogs.com/leaf930814/p/6664706.html>  
 + 菜鸟Git教程:如何添加远程库等等  
 <https://www.runoob.com/git/git-remote-repo.html>  
++ git命令之git remote的用法  
+<https://www.cnblogs.com/wuer888/p/7655856.html>
 
 <a href="/photos/" target="_blank"><img src="http://omjh2j5h3.bkt.clouddn.com/%E5%A4%A9%E7%AD%96.jpg" width="195" height="195" alt="photos"/></a>
 
