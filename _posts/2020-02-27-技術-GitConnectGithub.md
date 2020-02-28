@@ -23,6 +23,8 @@ tag: 技術
 <https://www.runoob.com/git/git-remote-repo.html>  
 + git命令之git remote的用法  
 <https://www.cnblogs.com/wuer888/p/7655856.html>
++ [Git]一个本地Git仓库push多个远程仓库  
+<https://www.jianshu.com/p/80c434e62ce8>
 
 <a href="/photos/" target="_blank"><img src="http://omjh2j5h3.bkt.clouddn.com/%E5%A4%A9%E7%AD%96.jpg" width="195" height="195" alt="photos"/></a>
 
