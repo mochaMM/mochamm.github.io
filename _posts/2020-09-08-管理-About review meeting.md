@@ -2,7 +2,7 @@
 layout: post
 title: 管理-About review meeting
 date: 2020-09-08 
-tag: 闲言碎语
+tag: 仕事
 ---
 
 <p>20200902振り返り会議、下記のことはKTさんから指導をいただく。</p>
