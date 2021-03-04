@@ -60,7 +60,7 @@ title: 资源「USEFUL LINKS」
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <p> 
 <p> 
-<a href="https://wpshushu.com/" target="_blank" >stormzhang</a>- WordPress建站达人...
+<a href="https://wpshushu.com/" target="_blank" >WP叔叔</a>- WordPress建站达人...
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <p>   
 Markdown语法参考链接:<a href="https://www.zybuluo.com/mdeditor" target="_blank" > 作业部落 </a> &nbsp;&nbsp; <a  href="http://nav.templatesy.com/"  >Templatesy</a>-前端网址导航.
