@@ -8,13 +8,12 @@ tag: 技术
 <p>今年年初，在一位朋友的指导下，终于安装成功了NAS，通过OMV Docker,在上面装了开源的Seafile NAS。下面记录一下安装过程中踩过的坑。</p>
 
 ### 1 安装OMV以及Portainer
-<p>可以参考以下链接<Br/>
-<Br/><a href="https://post.smzdm.com/p/av7z2564/" target="_blank">OMV安装：系统安装设置及一些功能的开启</a></p>
+<p>可以参考以下链接<a href="https://post.smzdm.com/p/av7z2564/" target="_blank">OMV安装：系统安装设置及一些功能的开启</a></p>
 <p>此处需要特别注意两点<Br/>
 1. 安装的时候需要2块U盘，1块U盘是保存安装文件，另外一块是OMV系统盘。因为系统也占用不了多少空间，所以我用的是32G的<Br/> 
 2. 语言选择不要选中文，我起初选的是中文，后来到系统盘启动的时候出错。<Br/>
 3. OMV安装好了之后，要进行Painter和Extras的安装，用wget进行安装，有时候因为网络问题，会导致通过OMV进行下载很慢，此时可以采用别的机器下载好安装包，<Br/>
-再通过Winscp工具上传到OMV进行安装。<Br/></p>
+   再通过Winscp工具上传到OMV进行安装。<Br/></p>
 
 ### 2 安装Seafile
 <p>可以参考以下官网链接<Br/>
@@ -23,8 +22,8 @@ tag: 技术
 
 1. 刚开始的时候选择的是开源版，后来安装好了之后，老是出现Bad GateWay的错误，我就卸载了然后安装了专业版。专业版限制在于只能开3个账号。但是专业版有全局搜索功能。<Br/>  
 2. 关于docker-compose.yml文件，有2点要注意。一是ports:下的 - "80:80"，这个的意思是说Seafile内部使用的80端口，但是因为这个端口经常被其他程序所使用，所以你可能<Br/>  
- 需要把它转换为其他的端口，比如我想用2323，就这样去改，"2323:80"。二是 - /opt/seafile-data:/shared 和 /opt/seafile-mysql/db:/var/lib/mysql  这个设置，<Br/>
- 需要把/opt/seafile-data这个替换为你设置的Seafile data的存储位置。我是用的我之前的一台旧电脑的数据盘，应该是Fat32的，在Omv上开头路径应是/Srv开头的。<Br/></p>
+ 需要把它转换为其他的端口，比如我想用2323，就这样去改，"2323:80"。二是 `- /opt/seafile-data:/shared` 和 `/opt/seafile-mysql/db:/var/lib/mysql`  这个设置，<Br/>
+ 需要把/opt/seafile-data这个替换为你设置的Seafile data的存储位置。我用的我之前的一台旧电脑的数据盘，应该是Fat32的，在Omv上开头路径应是/Srv开头的。<Br/></p>
   
 ### 3 安装Plex
 <p>可以参考以下官网链接<Br/>
@@ -33,8 +32,8 @@ tag: 技术
 <p>此处需要特别注意两点<Br/>
 
 1. 因为我的OMV-Extras插件中心，不知道为何找不到Plex支持，也缺少了很多其他服务支持，最后采用的是命令行方式安装的Plex。<Br/>  
-2. 其中用wget https://downloads.plex.tv/plex-media-server/0.9.12.3.1173-937aac3/plexmediaserver_0.9.12.3.1173-937aac3_amd64.deb 先下载的时候，<Br/>
-3. 因为网速太慢，我直接浏览器下载完安装包，然后用执行下面的命令dpkg -i plexmediaserver_0.9.12.3.1173-937aac3_amd64.deb来开始debian包的安装。<Br/>
+2. 其中用`wget https://downloads.plex.tv/plex-media-server/0.9.12.3.1173-937aac3/plexmediaserver_0.9.12.3.1173-937aac3_amd64.deb` 先下载的时候，<Br/>
+3. 因为网速太慢，我直接浏览器下载完安装包，然后用执行下面的命令`dpkg -i plexmediaserver_0.9.12.3.1173-937aac3_amd64.deb`来开始debian包的安装。<Br/>
 4. 安装过程较简单，但是不知道是不是因为电脑比较老旧了，所以影片加载很慢，只能播放大小很小的片段，超过1G的连预览都看不了。<Br/></p>  
 
 
