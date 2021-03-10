@@ -24,10 +24,11 @@ tag: 技术
 &nbsp;&nbsp;需要把/opt/seafile-data这个替换为你设置的Seafile data的存储位置。我用的我之前的一台旧电脑的数据盘，应该是Fat32的，在Omv上开头路径应是/Srv开头的。<Br/></p>
   
 ### 3 安装Plex
-<p>可以参考以下官网链接：<Br/><a href="https://linux.cn/article-5932-1.html" target="_blank">如何安装家庭媒体中心 Plex Media Server</a>
-<Br/><a href="https://www.kanzhun.com/jiaocheng/522729.html" target="_blank">OMV搭建系列教程[9] – 安装Plex流媒体服务器</a></p>
-<p>此处需要特别注意两点<Br/>
+可以参考以下官网链接：<Br/>
+<a href="https://linux.cn/article-5932-1.html" target="_blank">如何安装家庭媒体中心 Plex Media Server</a><Br/>
+<a href="https://www.kanzhun.com/jiaocheng/522729.html" target="_blank">OMV搭建系列教程[9] – 安装Plex流媒体服务器</a><Br/>
 
+<p>此处需要特别注意两点<Br/>
 1. 因为我的OMV-Extras插件中心，不知道为何找不到Plex支持，也缺少了很多其他服务支持，最后采用的是命令行方式安装的Plex。<Br/>  
 2. 其中用`wget https://downloads.plex.tv/plex-media-server/0.9.12.3.1173-937aac3/plexmediaserver_0.9.12.3.1173-937aac3_amd64.deb` 先下载的时候，<Br/>
 3. 因为网速太慢，我直接浏览器下载完安装包，然后用执行下面的命令`dpkg -i plexmediaserver_0.9.12.3.1173-937aac3_amd64.deb`来开始debian包的安装。<Br/>
