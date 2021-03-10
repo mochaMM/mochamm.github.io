@@ -38,13 +38,13 @@ tag: 技术
 ### 4 安装OpenWrt
 可以参考以下官网链接<Br/>
 <a href="https://blog.csdn.net/qingwufeiyang12346/article/details/88753985" target="_blank">在PHICOMM K2路由器中装入OpenWrt操作系统</a><Br/>
-<a href="https://openwrt.org/toh/views/toh_fwdownload" target="_blank">PHICOMM Table of Hardware: Firmware downloads</a>
+<a href="https://openwrt.org/toh/views/toh_fwdownload" target="_blank">PHICOMM Table of Hardware: Firmware downloads</a>(下载对应硬件的固件)<Br/>
 
 <p>1. Step1 先用Breed Web恢复控制台把固件刷入路由器。<Br/>  
 2. Step2 我用的是斐讯K2路由器，路由器默认IP为192.168.2.1，刷机成功后，路由器默认IP为192.168.1.1，将本机IP设置为192.168.1.X段。<Br/></p>
 
 ### 5 全局注意事项
-1. 注意事项：因为我安装OMV在前，安装OpenWrt在后，之前安装OMV的时候选择的是静态IP，192.168.18.X段的，导致OpenWrt安装好之后，因为是不同网段，找不到OMV的机器了。<Br/>  
-&nbsp;&nbsp;这个时候，我采取的方法是，把联通的旧路由器再接上去（从桥接改为拨号方式），用PC登录OMV界面改成了动态IP。然后再把路由器换为装好OpenWrt的斐讯，OMV就可以正常识别了。<Br/>  
-2. 注意事项：在OpenWrt中做端口映射的时候，需要把内部端口号映射成别的号（尽量是大于10000的号，一般网络嗅探端口号截止于10000以内），目的是为了防止别人直接用嗅探工具扫描开放的机器端口号，<Br/>
-&nbsp;&nbsp;这个时候，就需要把之前Seafile中设置过的__2323:80__中的2323映射成例如11111。<Br/>  
+1. 注意事项：因为我安装OMV在前，安装OpenWrt在后，之前安装OMV的时候选择的是静态IP，192.168.18.X段的，导致OpenWrt安装好之后，因为是不同网段，找不到OMV的机器了。<Br/>
+&nbsp;&nbsp;这个时候，我采取的方法是，把联通的旧路由器再接上去（从桥接改为拨号方式），用PC登录OMV界面改成了动态IP。然后再把路由器换为装好OpenWrt的斐讯，OMV就可以正常识别了。<Br/>
+2. 注意事项：在OpenWrt中做端口映射的时候，需要把内部端口号映射成别的号（尽量是大于10000的号，一般网络嗅探端口号截止于10000以内），目的是为了防止别人直接用嗅探工具扫描开放的机器端口号,<Br/>
+&nbsp;&nbsp;这个时候，就需要把之前Seafile中设置过的__2323:80__中的2323映射成例如11111。<Br/>
