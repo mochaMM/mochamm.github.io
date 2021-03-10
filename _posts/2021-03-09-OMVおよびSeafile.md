@@ -2,7 +2,7 @@
 layout: post
 title: 技術-OMV docker上安装Seafile
 date: 2021-03-09 
-tag: 技术
+tag: 技術
 ---
 
 <p>今年年初，在一位朋友的指导下，终于安装成功了NAS，通过OMV Docker,在上面装了开源的Seafile NAS。下面记录一下安装过程中踩过的坑。</p>
