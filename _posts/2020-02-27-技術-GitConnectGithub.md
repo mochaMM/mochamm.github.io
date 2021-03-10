@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 本地git和远程github连接完整教程
+title: 技術-本地git和远程github连接完整教程
 date: 2020-02-27
 tag: 技術
 ---
