@@ -11,11 +11,11 @@ tag: 技术
 <p>可以参考以下链接<Br/>
 <Br/><a href="https://post.smzdm.com/p/av7z2564/" target="_blank">OMV安装：系统安装设置及一些功能的开启</a></p>
 <p>此处需要特别注意两点<Br/>
-* 1是安装的时候需要2块U盘，1块U盘是保存安装文件，另外一块是OMV系统盘。因为系统也占用不了多少空间，所以我用的是32G的<Br/> 
-* 2是语言选择不要选中文，我起初选的是中文，后来到系统盘启动的时候出错。<Br/>
-* 3是OMV安装好了之后，要进行Painter和Extras的安装，用wget进行安装，有时候因为网络问题，会导致通过OMV进行下载很慢，此时可以采用别的机器下载好安装包，<Br/>
+1. 安装的时候需要2块U盘，1块U盘是保存安装文件，另外一块是OMV系统盘。因为系统也占用不了多少空间，所以我用的是32G的<Br/> 
+2. 语言选择不要选中文，我起初选的是中文，后来到系统盘启动的时候出错。<Br/>
+3. OMV安装好了之后，要进行Painter和Extras的安装，用wget进行安装，有时候因为网络问题，会导致通过OMV进行下载很慢，此时可以采用别的机器下载好安装包，<Br/>
 再通过Winscp工具上传到OMV进行安装。<Br/>
-       
+
 ### 2 安装Seafile
 <p>可以参考以下官网链接<Br/>
 <Br/><a href="https://cloud.seafile.com/published/seafile-manual-cn/docker/pro-edition/%E7%94%A8Docker%E9%83%A8%E7%BD%B2Seafile.md" target="_blank">用 Docker 部署 Seafile 专业版</a></p>
