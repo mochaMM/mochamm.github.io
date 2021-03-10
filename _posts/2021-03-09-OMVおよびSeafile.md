@@ -19,8 +19,10 @@ tag: 技术
 <p>可以参考以下官网链接：<a href="https://cloud.seafile.com/published/seafile-manual-cn/docker/pro-edition/%E7%94%A8Docker%E9%83%A8%E7%BD%B2Seafile.md" target="_blank">用 Docker 部署 Seafile 专业版</a></p>
 <p>此处需要特别注意两点<Br/>
 1. 刚开始的时候选择的是开源版，后来安装好了之后，老是出现Bad GateWay的错误，我就卸载了然后安装了专业版。专业版限制在于只能开3个账号。但是专业版有全局搜索功能。<Br/>  
-2. 关于docker-compose.yml文件，有2点要注意。一是ports:下的 - "80:80"，这个的意思是说Seafile内部使用的80端口，但是因为这个端口经常被其他程序所使用，所以你可能<Br/>  
-&nbsp;&nbsp;需要把它转换为其他的端口，比如我想用2323，就这样去改，"2323:80"。二是 `- /opt/seafile-data:/shared` 和 `/opt/seafile-mysql/db:/var/lib/mysql`  这个设置，<Br/>
+2. 关于docker-compose.yml文件，有2点要注意。
+   1. ports:下的 - "80:80"，这个的意思是说Seafile内部使用的80端口，但是因为这个端口经常被其他程序所使用，所以你可能<Br/>  
+&nbsp;&nbsp;需要把它转换为其他的端口，比如我想用2323，就这样去改，"2323:80"。
+   2. `- /opt/seafile-data:/shared` 和 `/opt/seafile-mysql/db:/var/lib/mysql`  这个设置，<Br/>
 &nbsp;&nbsp;需要把/opt/seafile-data这个替换为你设置的Seafile data的存储位置。我用的我之前的一台旧电脑的数据盘，应该是Fat32的，在Omv上开头路径应是/Srv开头的。<Br/></p>
   
 ### 3 安装Plex
@@ -30,8 +32,8 @@ tag: 技术
 
 <p>此处需要特别注意两点<Br/>
 1. 因为我的OMV-Extras插件中心，不知道为何找不到Plex支持，也缺少了很多其他服务支持，最后采用的是命令行方式安装的Plex。<Br/>  
-&nbsp;&nbsp;其中用__wget https://downloads.plex.tv/plex-media-server/0.9.12.3.1173-937aac3/plexmediaserver_0.9.12.3.1173-937aac3_amd64.deb__ 先下载的时候，因为网速太慢，<Br/>
-&nbsp;&nbsp;我直接通过浏览器下载完安装包，然后将固件通过Winscp上传到安装路径，执行下面的命令__dpkg -i plexmediaserver_0.9.12.3.1173-937aac3_amd64.deb__来开始debian包的安装。<Br/>
+&nbsp;&nbsp;其中用__wget https://downloads.plex.tv/plex-media-server/0.9.12.3.1173-937aac3/plexmediaserver_0.9.12.3.1173-937aac3_amd64.deb__ 先下载的时候，<Br/>
+&nbsp;&nbsp;因为网速太慢，我直接通过浏览器下载完安装包，然后将固件通过Winscp上传到安装路径，执行下面的命令__dpkg -i plexmediaserver_0.9.12.3.1173-937aac3_amd64.deb__来开始debian包的安装。<Br/>
 2. 安装过程较简单，但是不知道是不是因为电脑比较老旧了，所以影片加载很慢，只能播放大小很小的片段，超过1G的连预览都看不了。<Br/></p>  
 
 
@@ -46,5 +48,5 @@ tag: 技术
 ### 5 全局注意事项
 1. 注意事项：因为我安装OMV在前，安装OpenWrt在后，之前安装OMV的时候选择的是静态IP，192.168.18.X段的，导致OpenWrt安装好之后，因为是不同网段，找不到OMV的机器了。<Br/>
 &nbsp;&nbsp;这个时候，我采取的方法是，把联通的旧路由器再接上去（从桥接改为拨号方式），用PC登录OMV界面改成了动态IP。然后再把路由器换为装好OpenWrt的斐讯，OMV就可以正常识别了。<Br/>
-2. 注意事项：在OpenWrt中做端口映射的时候，需要把内部端口号映射成别的号（尽量是大于10000的号，一般网络嗅探端口号截止于10000以内），目的是为了防止别人直接用嗅探工具扫描开放的机器端口号,<Br/>
-&nbsp;&nbsp;这个时候，就需要把之前Seafile中设置过的__2323:80__中的2323映射成外部访问端口号例如11111。<Br/>
+2. 注意事项：在OpenWrt中做端口映射的时候，需要把内部端口号映射成别的号（尽量是大于10000的号，一般网络嗅探端口号截止于10000以内），目的是为了防止别人直接用嗅探<Br/>
+&nbsp;&nbsp;工具扫描开放的机器端口号,这个时候，就需要把之前Seafile中设置过的__2323:80__中的2323映射成外部访问端口号例如11111。<Br/>
