@@ -25,26 +25,26 @@ tag: 技术
   
 ### 3 安装Plex
 可以参考以下官网链接：<Br/>
-<a href="https://linux.cn/article-5932-1.html" target="_blank">如何安装家庭媒体中心 Plex Media Server</a><Br/>
-<a href="https://www.kanzhun.com/jiaocheng/522729.html" target="_blank">OMV搭建系列教程[9] – 安装Plex流媒体服务器</a><Br/>
+<a href="https://linux.cn/article-5932-1.html" target="_blank">如何安装家庭媒体中心 Plex Media Server</a>(这种方法为命令行方式)<Br/>
+<a href="https://www.kanzhun.com/jiaocheng/522729.html" target="_blank">OMV搭建系列教程[9] – 安装Plex流媒体服务器(这种方法为Omv 插件方式)</a><Br/>
 
 <p>此处需要特别注意两点<Br/>
 1. 因为我的OMV-Extras插件中心，不知道为何找不到Plex支持，也缺少了很多其他服务支持，最后采用的是命令行方式安装的Plex。<Br/>  
-2. 其中用`wget https://downloads.plex.tv/plex-media-server/0.9.12.3.1173-937aac3/plexmediaserver_0.9.12.3.1173-937aac3_amd64.deb` 先下载的时候，<Br/>
-3. 因为网速太慢，我直接浏览器下载完安装包，然后用执行下面的命令`dpkg -i plexmediaserver_0.9.12.3.1173-937aac3_amd64.deb`来开始debian包的安装。<Br/>
+2. 其中用__wget https://downloads.plex.tv/plex-media-server/0.9.12.3.1173-937aac3/plexmediaserver_0.9.12.3.1173-937aac3_amd64.deb__ 先下载的时候，<Br/>
+3. 因为网速太慢，我直接浏览器下载完安装包，然后用执行下面的命令__dpkg -i plexmediaserver_0.9.12.3.1173-937aac3_amd64.deb__来开始debian包的安装。<Br/>
 4. 安装过程较简单，但是不知道是不是因为电脑比较老旧了，所以影片加载很慢，只能播放大小很小的片段，超过1G的连预览都看不了。<Br/></p>  
 
 
 ### 4 安装OpenWrt
-<p>可以参考以下官网链接<Br/>
+可以参考以下官网链接<Br/>
 <Br/><a href="https://blog.csdn.net/qingwufeiyang12346/article/details/88753985" target="_blank">在PHICOMM K2路由器中装入OpenWrt操作系统</a>
-<Br/><a href="https://openwrt.org/toh/views/toh_fwdownload<Br/> target="_blank">PHICOMM Table of Hardware: Firmware downloads</a>
+<Br/><a href="https://openwrt.org/toh/views/toh_fwdownload" target="_blank">PHICOMM Table of Hardware: Firmware downloads</a>
 
-1. Step1 先用Breed Web恢复控制台把固件刷入路由器。<Br/>  
+<p>1. Step1 先用Breed Web恢复控制台把固件刷入路由器。<Br/>  
 2. Step2 我用的是斐讯K2路由器，路由器默认IP为192.168.2.1，刷机成功后，路由器默认IP为192.168.1.1，将本机IP设置为192.168.1.X段。<Br/></p>
 
 ### 5 全局注意事项
 1. 注意事项：因为我安装OMV在前，安装OpenWrt在后，之前安装OMV的时候选择的是静态IP，192.168.18.X段的，导致OpenWrt安装好之后，因为是不同网段，找不到OMV的机器了。<Br/>  
 &nbsp;&nbsp;这个时候，我采取的方法是，把联通的旧路由器再接上去（从桥接改为拨号方式），用PC登录OMV界面改成了动态IP。然后再把路由器换为装好OpenWrt的斐讯，OMV就可以正常识别了。<Br/>  
 2. 注意事项：在OpenWrt中做端口映射的时候，需要把内部端口号映射成别的号（尽量是大于10000的号，一般网络嗅探端口号截止于10000以内），目的是为了防止别人直接用嗅探工具扫描开放的机器端口号，<Br/
-&nbsp;&nbsp;这个时候，就需要把之前Seafile中设置过的2323:80中的2323映射成例如11111。<Br/>  
+&nbsp;&nbsp;这个时候，就需要把之前Seafile中设置过的__2323:80__中的2323映射成例如11111。<Br/>  
