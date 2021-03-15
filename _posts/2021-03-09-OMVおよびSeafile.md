@@ -12,7 +12,14 @@ tag: 技術
 <p>此处需要特别注意两点<Br/>
 1. 安装的时候需要2块U盘，1块U盘是保存安装文件，另外一块是OMV系统盘。因为系统也占用不了多少空间，所以我用的是32G的<Br/> 
 2. 语言选择不要选中文，我起初选的是中文，后来到系统盘启动的时候出错。<Br/>
-3. OMV安装好了之后，要进行Painter和Extras的安装，用wget进行安装，有时候因为网络问题，会导致通过OMV进行下载很慢，此时可以采用别的机器下载好安装包，<Br/>
+3. 关于安装盘的烧录。3月14号因为手欠，安装transmisson出错，于是命令行下，apt-get dist-upgrade执行，到最后installtion完成，然后界面不动，<Br/> 
+&nbsp;&nbsp;我采取了断电重启，然后就是找不到了启动文件了，error: file /boot/grub/i386/normal.md not found，按照网上的指引，进入rescure mode,<Br/>
+&nbsp;&nbsp;找到我的linux系统盘，set root=(hd0,msdos1),set prefix=(hd0,msdos1)/grub,之后，insmod /grub/normal.mod，仍然找不到normal.mod,<Br/>
+&nbsp;&nbsp;看了其他的方法，要做debian的光盘启动盘，进入repair模式，太复杂，索性重装吧。重装的时候，先用一个新工具不行，因为安装进行到设置网络，DHCP<Br/>
+&nbsp;&nbsp;的时候，因为之前openwrt的lan口应该是设置了静态IP，这块就卡死了。后来换了DiskGenius格式化U盘为Fat32之后，再用UltraIso,烧录后，<Br/>
+&nbsp;&nbsp;到了相同的界面，它设置不了DHCP，但是它会跳出失败界面，告诉DHCP获取失败，请设置静态IP或者本次就不设置，终于完成了OMV的再次安装。<Br/>
+&nbsp;&nbsp;OMV安装好了之后，我在另外一台PC上，敲入IP：80，出不来OMV的登录界面，后来大约等了半小时，登录画面才出来，因为我静态IP的地址是设置正确的，这个地方需要耐心等一下。<Br/>
+4. OMV安装好了之后，要进行Painter和Extras的安装，用wget进行安装，有时候因为网络问题，会导致通过OMV进行下载很慢，此时可以采用别的机器下载好安装包，<Br/>
 &nbsp;&nbsp;再通过Winscp工具上传到OMV进行安装。<Br/></p>
 
 ### 2 安装Seafile
