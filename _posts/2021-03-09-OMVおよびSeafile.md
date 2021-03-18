@@ -36,9 +36,9 @@ tag: 技術
    1. ports:下的 - "80:80"，这个的意思是说Seafile内部使用的80端口，但是因为这个端口经常被其他程序所使用，所以你可能<Br/>  
 &nbsp;&nbsp;需要把它转换为其他的端口，比如我想用2323，就这样去改，"2323:80"。
    2. `- /opt/seafile-data:/shared` 和 `/opt/seafile-mysql/db:/var/lib/mysql`  这个设置，<Br/>
-&nbsp;&nbsp;需要把/opt/seafile-data这个替换为你设置的Seafile data的存储位置。我用的我之前的一台旧电脑的数据盘，应该是Fat32的，在Omv上开头路径应是/Srv开头的。<Br/></p>
+&nbsp;&nbsp;需要把/opt/seafile-data这个替换为你设置的Seafile data的存储位置。我用的我之前的一台旧电脑的数据盘，应该是Fat32的，在Omv上开头路径应是/Srv开头的。<Br/>
 　 3. 执行docker-compose up -d，会遇到Creating seafile的时候，遇到timeout错误，这个时候就会出现提示，http_request_timeout设置为60，请调大数值。后来我在/etc/profile中<Br/>
-&nbsp;&nbsp;加入export http_request_timeout=500，再次执行就没有问题了。
+&nbsp;&nbsp;加入export http_request_timeout=500，再次执行就没有问题了。</p>
   
 ### 3 安装Plex
 可以参考以下官网链接：<Br/>
