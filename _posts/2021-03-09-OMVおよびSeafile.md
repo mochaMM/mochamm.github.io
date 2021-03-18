@@ -32,9 +32,9 @@ tag: 技術
 <p>可以参考以下官网链接：<a href="https://cloud.seafile.com/published/seafile-manual-cn/docker/pro-edition/%E7%94%A8Docker%E9%83%A8%E7%BD%B2Seafile.md" target="_blank">用 Docker 部署 Seafile 专业版</a></p>
 <p>此处需要特别注意两点<Br/>
 1. 刚开始的时候选择的是开源版，后来安装好了之后，老是出现Bad GateWay的错误，我就卸载了然后安装了专业版。专业版限制在于只能开3个账号。但是专业版有全局搜索功能。<Br/>  
-2. 关于docker-compose.yml文件，有2点要注意。
+2. 关于docker-compose.yml文件，有2点要注意。<Br/> 
    1. ports:下的 - "80:80"，这个的意思是说Seafile内部使用的80端口，但是因为这个端口经常被其他程序所使用，所以你可能<Br/>  
-&nbsp;&nbsp;需要把它转换为其他的端口，比如我想用2323，就这样去改，"2323:80"。
+&nbsp;&nbsp;需要把它转换为其他的端口，比如我想用2323，就这样去改，"2323:80"。<Br/> 
    2. `- /opt/seafile-data:/shared` 和 `/opt/seafile-mysql/db:/var/lib/mysql`  这个设置，<Br/>
 &nbsp;&nbsp;需要把/opt/seafile-data这个替换为你设置的Seafile data的存储位置。我用的我之前的一台旧电脑的数据盘，应该是Fat32的，在Omv上开头路径应是/Srv开头的。<Br/>
 　 3. 执行docker-compose up -d，会遇到Creating seafile的时候，遇到timeout错误，这个时候就会出现提示，http_request_timeout设置为60，请调大数值。后来我在/etc/profile中<Br/>
